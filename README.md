@@ -10,6 +10,8 @@ for studying algorithm, data structure, c/c++, python.
 
 - hackerrank
   - [ ] https://www.hackerrank.com/challenges/big-sorting/problem
+  > Need practice more and more for string.
+  - [ ] https://www.hackerrank.com/challenges/countingsort4/problem
 
 
 ## reference
