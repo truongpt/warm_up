@@ -3,9 +3,14 @@ for studying algorithm, data structure, c/c++, python.
 - [ ] sort
 - [ ] dynamic programming
 
-- [ ] https://www.spoj.com/problems/PRIME1/
-- [ ] https://www.spoj.com/problems/AGGRCOW/
-- [ ] https://www.spoj.com/problems/COINS/
+- SPOJ
+  - [ ] https://www.spoj.com/problems/PRIME1/
+  - [ ] https://www.spoj.com/problems/AGGRCOW/
+  - [ ] https://www.spoj.com/problems/COINS/
+
+- hackerrank
+  - [ ] https://www.hackerrank.com/challenges/big-sorting/problem
+
 
 ## reference
 - https://github.com/ruby-vietnam/hardcore-rule/tree/master/algorithms
