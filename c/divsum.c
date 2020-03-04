@@ -1,27 +1,28 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <string.h>
+#include <math.h>
 
 int main(void) {	
 	// your code here
-    int n = 0;
-    scanf("%d",&n);
+    unsigned int n = 0;
+    scanf("%u",&n);
     // printf("n= %d\n",n);
-    int *v = (int*)malloc(sizeof(int)*n);
-    int *u = (int*)malloc(sizeof(int)*n);
-    memset((void*)u,0x00,sizeof(int)*n);
-
+    unsigned int v = 0;
     for (int i = 0; i < n; i++) {
-        scanf("%d",&v[i]);
-    }
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 1; j <= v[i]/2; j++) {
-            if (v[i] % j == 0) u[i] += j;
+        scanf("%u",&v);
+    	unsigned int u = (1== v) ? 0 : 1;
+        for (int j = 2; j <= sqrt(v); j++) {
+            if (v % j == 0)
+            {
+                if (j == v/j) {
+                    u += j;
+                } else {
+                    u += (j + v/j);
+                }
+            }
         }
-        printf("%d\n",u[i]);
+        printf("%u\n",u);
     }
-    free(v);
-    free(u);    
 	return 0;
 }

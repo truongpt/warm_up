@@ -4,17 +4,17 @@ for studying algorithm, data structure, c/c++, python.
 - [ ] dynamic programming
 
 - SPOJ
-  - [ ] https://www.spoj.com/problems/PRIME1/
+  - [x] https://www.spoj.com/problems/PRIME1/ <- 2020/03/04
   - [ ] https://www.spoj.com/problems/AGGRCOW/
   - [ ] https://www.spoj.com/problems/COINS/
-  - [ ] https://www.spoj.com/problems/DIVSUM/
-  - https://ideone.com/
-
+  - [x] https://www.spoj.com/problems/DIVSUM/
+  - [ ] https://www.spoj.com/problems/ONP/
 - hackerrank
-  - [ ] https://www.hackerrank.com/challenges/big-sorting/problem
+  - [x] https://www.hackerrank.com/challenges/big-sorting/problem
   > Need practice more and more for string.
   - [ ] https://www.hackerrank.com/challenges/countingsort4/problem
 
+- [codeforces](http://codeforces.com)
 
 ## reference
 - https://github.com/ruby-vietnam/hardcore-rule/tree/master/algorithms
@@ -32,3 +32,4 @@ for studying algorithm, data structure, c/c++, python.
 - https://github.com/lnishan/awesome-competitive-programming
 - https://www.hackerearth.com/ja/practice/notes/getting-started-with-the-sport-of-programming/
 - https://dev.to/aviaryan/getting-started-with-competitive-programming---build-your-algorithm-skills-2fjd
+- https://ideone.com/
