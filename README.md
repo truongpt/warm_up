@@ -5,7 +5,7 @@ for studying/refining/re-confirming algorithm, data structure, c/c++, fundemanta
 - [ ] dynamic programming
 
 ## problem solve
-> practice over and over, the god doesn't give us the shortcut ^^.
+> practice over and over, the god doesn't give us the shortcut ^^. But it really is FUN.
 
 - SPOJ
   - [x] https://www.spoj.com/problems/PRIME1/ <- 2020/03/04
