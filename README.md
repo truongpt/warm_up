@@ -1,5 +1,5 @@
 # warm up
-for studying/refining/re-confirming algorithm, data structure, c/c++, fundemantal cs knowlege ...
+> For studying/refining/re-confirming algorithm, data structure, c/c++, fundemantal cs knowlege ...
 
 ## algorithm
 - dynamic programming
@@ -10,7 +10,7 @@ for studying/refining/re-confirming algorithm, data structure, c/c++, fundemanta
 
 ## coding is fun
 ## problem solve
-> practice over and over, because the god doesn't give us the shortcut ^^. But it really is FUN.
+> Practice over and over, because the god doesn't give us the shortcut ^^. But it really is FUN.
 
 - leetcode: https://leetcode.com/truongpt/
 - SPOJ
