@@ -1,7 +1,11 @@
 # problem_solving
-for studying algorithm, data structure, c/c++, python.
+for studying/refining/re-confirming algorithm, data structure, c/c++, fundemantal cs knowlege ...
+
 - [ ] sort
 - [ ] dynamic programming
+
+## problem solve
+> practice over and over, the god doesn't give us the shortcut ^^.
 
 - SPOJ
   - [x] https://www.spoj.com/problems/PRIME1/ <- 2020/03/04
@@ -15,6 +19,7 @@ for studying algorithm, data structure, c/c++, python.
   - [ ] https://www.hackerrank.com/challenges/countingsort4/problem
 
 - [codeforces](http://codeforces.com)
+- leetcode: https://leetcode.com/truongpt/
 
 ## reference
 - https://github.com/ruby-vietnam/hardcore-rule/tree/master/algorithms
