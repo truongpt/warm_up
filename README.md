@@ -8,6 +8,7 @@ for studying/refining/re-confirming algorithm, data structure, c/c++, fundemanta
 ## sort
 - heapsort
 
+## coding is fun
 ## problem solve
 > practice over and over, because the god doesn't give us the shortcut ^^. But it really is FUN.
 
