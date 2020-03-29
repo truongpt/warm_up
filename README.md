@@ -1,25 +1,30 @@
 # warm up
 for studying/refining/re-confirming algorithm, data structure, c/c++, fundemantal cs knowlege ...
 
-- [ ] sort
-- [ ] dynamic programming
+## algorithm
+- dynamic programming
+- divice and conquer
+
+## sort
+- heapsort
 
 ## problem solve
-> practice over and over, the god doesn't give us the shortcut ^^. But it really is FUN.
+> practice over and over, because the god doesn't give us the shortcut ^^. But it really is FUN.
 
+- leetcode: https://leetcode.com/truongpt/
 - SPOJ
   - [x] https://www.spoj.com/problems/PRIME1/ <- 2020/03/04
   - [ ] https://www.spoj.com/problems/AGGRCOW/
   - [ ] https://www.spoj.com/problems/COINS/
   - [x] https://www.spoj.com/problems/DIVSUM/
   - [ ] https://www.spoj.com/problems/ONP/
-- hackerrank
+- hackerrank: https://www.hackerrank.com/truongptk30a3
   - [x] https://www.hackerrank.com/challenges/big-sorting/problem
   > Need practice more and more for string.
   - [ ] https://www.hackerrank.com/challenges/countingsort4/problem
 
 - [codeforces](http://codeforces.com)
-- leetcode: https://leetcode.com/truongpt/
+
 
 ## reference
 - https://github.com/ruby-vietnam/hardcore-rule/tree/master/algorithms
