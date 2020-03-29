@@ -1,4 +1,4 @@
-# problem_solving
+# warm up
 for studying/refining/re-confirming algorithm, data structure, c/c++, fundemantal cs knowlege ...
 
 - [ ] sort
