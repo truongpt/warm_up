@@ -16,6 +16,8 @@
 - Rabbit and turtle
 - Divice and conquer
 - Greedy
+- Binary search
+  - https://www.youtube.com/watch?v=GU7DpgHINWQ
 
 ## Data structure
 
