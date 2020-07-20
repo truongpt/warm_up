@@ -8,7 +8,7 @@
   - leetcode: https://leetcode.com/gravieb/
   - hackerrank: https://www.hackerrank.com/gravieb
   - spoj: https://www.spoj.com/status/gravieb/
-- Here :musle:
+- Here ::muscle::
   - [graph](graph)
 
 ## Algorithm & problem solving coding pattern
