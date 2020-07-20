@@ -1,33 +1,28 @@
-# warm up
+# Warm up
 > For studying/refining/re-confirming algorithm, data structure, c/c++, fundemantal cs knowlege ...
 
-## algorithm
-- dynamic programming
-- divice and conquer
+## Practice makes perfect
+> Coding is FUN.  
+> Practice over and over, because the god doesn't give us the shortcut ^^.
+- Online 
+  - leetcode: https://leetcode.com/gravieb/
+  - hackerrank: https://www.hackerrank.com/gravieb
+  - spoj: https://www.spoj.com/status/gravieb/
+- Here :musle:
+  - [graph](graph)
 
-## sort
+## Algorithm & problem solving coding pattern
+- Dynamic programming
+- Rabbit and turtle
+- Divice and conquer
+- Greedy
+
+## Data structure
+
+## Sort
 - heapsort
 
-## coding is fun
-## problem solve
-> Practice over and over, because the god doesn't give us the shortcut ^^. But it really is FUN.
-
-- leetcode: https://leetcode.com/truongpt/
-- SPOJ
-  - [x] https://www.spoj.com/problems/PRIME1/ <- 2020/03/04
-  - [ ] https://www.spoj.com/problems/AGGRCOW/
-  - [ ] https://www.spoj.com/problems/COINS/
-  - [x] https://www.spoj.com/problems/DIVSUM/
-  - [ ] https://www.spoj.com/problems/ONP/
-- hackerrank: https://www.hackerrank.com/truongptk30a3
-  - [x] https://www.hackerrank.com/challenges/big-sorting/problem
-  > Need practice more and more for string.
-  - [ ] https://www.hackerrank.com/challenges/countingsort4/problem
-
-- [codeforces](http://codeforces.com)
-
-
-## reference
+## Reference
 - https://github.com/ruby-vietnam/hardcore-rule/tree/master/algorithms
 - https://www.algoexpert.io/product
 - BFS: https://www.youtube.com/watch?v=i4fEZlVNwVs
