@@ -9,7 +9,7 @@
   - hackerrank: https://www.hackerrank.com/gravieb
   - spoj: https://www.spoj.com/status/gravieb/
 - Here :muscle:
-  - [graph](practice/graph)
+  - [graph](practice/cpp/graph)
 
 ## Algorithm & problem solving coding pattern
 - Dynamic programming
