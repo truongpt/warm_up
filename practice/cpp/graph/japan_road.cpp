@@ -5,66 +5,63 @@
 
 using namespace std;
 
-bool dfs(vector<vector<int>>& g, int b, int t, vector<bool>& todo, vector<int>& p);
+bool dfs(vector<vector<int>>& g, int b, int t, vector<bool>& todo, unordered_map<long, int>& num_r) 
+{
+    if (todo[b]) {
+        return false;
+    }
+    if (b == t) {
+        return true;
+    }
+    todo[b] = true;
+
+    for (auto& v : g[b] ) {
+
+        int m = max(b, v);
+        int n = min(b, v);
+        long key = (long)n*100000+(long)m;
+
+        num_r[key]++;
+ 
+        if(dfs(g, v, t, todo, num_r)) {
+            return true;
+        };
+
+        num_r[key]--;
+    }
+
+    todo[b] = false;
+    return false;
+}
 
 int minimumCostInTree(int n, std::vector<std::vector<int>> paths)
 {
     unordered_map<long, vector<int>> mg;
+    unordered_map<long, int> num_r;
+    num_r.clear();
     mg.clear();
     vector<vector<int>> g (n+1, vector<int>{});
-    for (auto p : paths) {
+    for (auto& p : paths) {
         g[p[0]].push_back(p[1]);
         g[p[1]].push_back(p[0]);
         int m = max(p[0], p[1]);
         int n = min(p[0], p[1]);
         long key = (long)n*100000+(long)m;
-        mg[key].push_back(0);
         mg[key].push_back(p[2]);
         mg[key].push_back(p[3]);
     }
     
     for (int i = 1; i < n; i++) {
         vector<bool> todo (n+1, false);
-        vector<int> p = {};
-        dfs(g, i, i+1, todo, p);
-
-        for (int j = 0; j < p.size()-1; j++) {
-            int m = max(p[j], p[j+1]);
-            int n = min(p[j], p[j+1]);
-            long key = (long)n*100000+(long)m;
-            mg[key][0]++;
-        }
+        dfs(g, i, i+1, todo, num_r);
     }
 
     int sum = 0;
-    for (auto p : mg) {
-        int elem_cost = min(p.second[0]*p.second[1],p.second[2]);
-        // cout << "road = " << p.first << ", num = "<< p.second[0] << ", c1 = " << p.second[1] << ", c2 = " << p.second[2] << endl;
-        // cout << p.first << "=" << elem_cost << endl;
+    for (auto& p : mg) {
+        int elem_cost = min(num_r[p.first]*p.second[0],p.second[1]);
         sum += elem_cost;
     }
     return sum;
-}
-
-bool dfs(vector<vector<int>>& g, int b, int t, vector<bool>& todo, vector<int>& p) 
-{
-    if (todo[b]) {
-        return false;
-    }
-    if (b == t) {
-        p.push_back(t);
-        return true;
-    }
-    todo[b] = true;
-    p.push_back(b);
-    for (auto v : g[b] ) {
-        if(dfs(g, v, t, todo, p)) {
-            return true;
-        };
-    }
-    p.pop_back();
-    todo[b] = false;
-    return false;
 }
 
 int main(void)
