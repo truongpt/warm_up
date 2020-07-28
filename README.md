@@ -11,6 +11,7 @@
 - Here :muscle:
   - [graph](practice/cpp/graph)
   - [sliding_window](practice/cpp/sliding_window)
+  - [greedy](practice/cpp/greedy)
 
 ## Algorithm & problem solving coding pattern
 - Dynamic programming
@@ -23,9 +24,10 @@
   - https://en.wikipedia.org/wiki/Topological_sorting
 
 ## Data structure
+- todo
 
 ## Sort
-- heapsort
+- todo
 
 ## Reference
 - http://discrete.gr/complexity/
