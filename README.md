@@ -29,6 +29,6 @@
 ## Sort
 - todo
 
-## misc
-- [ctci](ctci.md)
-- [reference](ref.md)
+## MISC
+- [ctci note](ctci.md)
+- [reference list](ref.md)
