@@ -14,21 +14,7 @@
   - [greedy](practice/cpp/greedy)
 
 ## Algorithm & problem solving coding pattern
-- Dynamic programming
-- Rabbit and turtle
-- Divice and conquer
-- Greedy
 - Binary search
   - https://www.youtube.com/watch?v=GU7DpgHINWQ
 - Graph
   - https://en.wikipedia.org/wiki/Topological_sorting
-
-## Data structure
-- todo
-
-## Sort
-- todo
-
-## misc
-- [ctci](ctci.md)
-- [reference](ref.md)
