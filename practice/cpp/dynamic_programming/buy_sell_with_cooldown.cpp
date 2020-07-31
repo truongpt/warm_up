@@ -1,5 +1,6 @@
 // problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 #include <iostream>
+#include <sstream>
 #include <vector>
 #include <algorithm>
 #include <climits>
@@ -23,20 +24,15 @@ int MaxProfit(vector<int>& p)
 
 int main(void)
 {
-    string p_str;
+    string p_str, out;
     getline(cin, p_str);
     vector<int> p;
-
-    while (!p_str.empty()) {
-        int pos = p_str.find(" ");
-        if (pos == string::npos) {
-            p.push_back(stoi(p_str));
-            break;
-        }
-        string elem = p_str.substr(0,pos);
-        p.push_back(stoi(elem));
-        p_str = p_str.substr(pos+1);
+    stringstream ss;
+    ss << p_str;
+    while (ss >> out) {
+        p.push_back(stoi(out));
     }
+
     for (auto it : p) {
         cout << it << ",";
     }
