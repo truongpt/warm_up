@@ -12,6 +12,7 @@
   - [graph](practice/cpp/graph)
   - [sliding_window](practice/cpp/sliding_window)
   - [greedy](practice/cpp/greedy)
+  - [dynamic_programming](practice/cpp/dynamic_programming)
 
 ## Algorithm & problem solving coding pattern
 - Binary search
