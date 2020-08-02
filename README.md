@@ -19,3 +19,5 @@
   - https://www.youtube.com/watch?v=GU7DpgHINWQ
 - Graph
   - https://en.wikipedia.org/wiki/Topological_sorting
+- Greedy
+  - Problem list on leetcode: https://leetcode.com/tag/greedy/
