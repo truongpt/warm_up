@@ -1,4 +1,3 @@
-c/*.exe*
-cpp/*.exe*
-c/*#*
-cpp/*#*
+*.out
+*.exe*
+*#*
