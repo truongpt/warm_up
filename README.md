@@ -22,3 +22,9 @@
   - https://en.wikipedia.org/wiki/Topological_sorting
 - Greedy
   - Problem list on leetcode: https://leetcode.com/tag/greedy/
+- Dynamic programming
+  - Problem list on leetcode: https://leetcode.com/tag/dynamic-programming
+  - https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
+- Misc
+  - https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-leetcode
