@@ -14,9 +14,9 @@ bool stoneGame(vector<int> piles)
     for (int d = 1; d <= n; d++) {
         for (int i = 0, j = d-1; j < n; i++,j++) {
             if (d % 2) {
-                dp[i][j] = min(-piles[i]+d[i+1][j], -piles[i]+);
+                dp[i][j] = min(-piles[i]+dp[i+1][j], -piles[i]+ (j>0 ? dp[i][j-1] : 0) );
             } else {
-
+                dp[i][j] = max(piles[i]+dp[i+1][j], piles[i]+ (j>0 ? dp[i][j-1] : 0) );
             }
         }
     }
