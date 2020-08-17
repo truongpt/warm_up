@@ -17,4 +17,5 @@
 
 ## motivate
 - https://leetcode.com/discuss/interview-experience/788696/google-l4-virtual-on-site-offer
+- https://leetcode.com/discuss/interview-experience/680549/google-amazon-l4-sde2-june-2020-pending-offer/659836
  
