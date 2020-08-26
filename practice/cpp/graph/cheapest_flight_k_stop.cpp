@@ -4,11 +4,37 @@
 #include <climits>
 #include <algorithm>
 #include <unordered_map>
+#include <queue>
 
 using namespace std;
 
 class Solution {
 public:
+    // dijstra
+    int findCheapestPriceDi(int n, vector<vector<int>>& flights, int src, int dst, int K) {
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> q;
+
+        unordered_map<int, unordered_map<int,int>> path;
+        for (auto f : flights) {
+            path[f[0]][f[1]] = f[2];
+        }
+
+        q.push({0,src,0});
+        while (!q.empty()) {
+            vector<int> cur = q.top();
+            q.pop();
+            if (cur[1] == dst) return cur[0];
+            if (cur[2] > K) {continue;}
+
+            for (auto p : path[cur[1]]) {
+                int cost = cur[0]+p.second;
+                int stop = cur[2]+1;
+                q.push({cost, p.first, stop});
+            }
+        }
+        return -1;
+    }
+    // bellman ford
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K) {
         vector<vector<int>> p(K+2, vector<int>(n, INT_MAX/2));
         p[0][src] = 0;
@@ -21,6 +47,7 @@ public:
         return p[K+1][dst] > INT_MAX/2 ? -1 : p[K+1][dst];
     }
 
+    // dfs
     int findCheapestPriceDFS(int n, vector<vector<int>>& flights, int src, int dst, int K) {
         vector<int> res;
         unordered_map<int, unordered_map<int, int>> m;
@@ -62,5 +89,5 @@ int main(void)
     int src = 0, dst = 2, k = 1;
     cout << sol.findCheapestPrice(n, edges, src, dst, n) << endl;
     cout << sol.findCheapestPriceDFS(n, edges, src, dst, n) << endl;
-  
+    cout << sol.findCheapestPriceDi(n, edges, src, dst, n) << endl;
 }
