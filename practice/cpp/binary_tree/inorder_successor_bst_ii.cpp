@@ -29,14 +29,12 @@ public:
     Node* inorderSuccessor(Node* node) {
         
         if (nullptr == node->right) {
-            if (nullptr == node->parent) {
-                return nullptr;
-            } else if (node->parent->left == node) {
-                return node->parent;
-            } else {
-                node->parent->right = nullptr;
-                return inorderSuccessor(node->parent);
+            Node* p = node->right;
+            while (nullptr != p && node != p->left) {
+                node = p;
+                p = p->parent;
             }
+            return p;
         } else {
             Node* r = node->right;
             while (nullptr != r->left) {
