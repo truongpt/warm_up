@@ -2,15 +2,37 @@
 - Problem: https://leetcode.com/problems/remove-interval/
 
 - Clarify:
-  > Input: intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
-  > Output: [[0,1],[6,7]]
-  - toBeRemoved[0] -> find index i
-  - toBeRemoved[1] -> find index j
+  - Case 1
+    - Input: intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
+         i           j
+    - [[0,2],[3,4],[5,7]],
+         ^           ^toBeRemoved[1]
+         \toBeRemoved[0]
+    - Output: [[0,1],[6,7]]
+  - Case 2
+    - Input: intervals = [[0,2],[5,7],[9,10]], toBeRemoved = [3,8]
+                i,j
+    - [[0,2], [5,7], [9,10]]
+            ^      ^toBeRemoved[1]
+              \toBeRemoved[0]
+    - Output: [[0,2],[9,10]]
+  - Case 3,4 ...
+
+- Solution
+  - toBeRemoved[0] -> find index i by binary search
+  - toBeRemoved[1] -> find index j by binary search
   - if j < i -> do nothing.
   - if j = i -> check intervals[i] with toBeRemoved.
-    - case 1 ...
+    - Base on toBeRemove vs intervals[i] -> action.
   - if j > i -> check intervals[i], intervals[j] with toBeRemoved
-    - case 1 ...
+    - Base on toBeRemove vs intervals[i], intervals[j] -> action.
+
+- Time & memory
+  - TC: Average O(log n), but having insert vector -> the worst -> O(n)
+  - SC: O(1) -> not use any extension memmory.
+
+- Note:
+  - insert, erase API of vector lib
 */
 
 #include <iostream>
@@ -65,7 +87,7 @@ vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& 
             int temp = intervals[i][1];
             intervals[i][1] = toBeRemoved[0];
             if (toBeRemoved[1] < temp) {
-                intervals.insert(intervals.begin()+i+1, {toBeRemoved[1], temp});
+                intervals.insert(intervals.begin()+i+1, {toBeRemoved[1], temp}); // -> make time O(n)
             }
         } else if (toBeRemoved[1] < intervals[i][1]) {
             intervals[i][0] = toBeRemoved[1];
@@ -96,5 +118,23 @@ vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& 
 
 int main(void)
 {
+    {
+        vector<vector<int>> intervals = {{0,2},{3,4},{5,7}};
+        vector<int> toBeRemoved = {1,6};
+        vector<vector<int>> res = removeInterval(intervals, toBeRemoved);
+        for (auto it : res) {
+            cout << "{" << it[0] << "," << it[1] << "}" << ",";
+        }
+        cout << endl;
+    }
 
+    {
+        vector<vector<int>> intervals = {{0,2},{5,7},{9,10}};
+        vector<int> toBeRemoved = {3,8};
+        vector<vector<int>> res = removeInterval(intervals, toBeRemoved);
+        for (auto it : res) {
+            cout << "{" << it[0] << "," << it[1] << "}" << ",";
+        }
+        cout << endl;
+    }
 }
