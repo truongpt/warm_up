@@ -16,6 +16,6 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
 - [Binary_search](practice/cpp/binary_search)
   - Median of two sorted arrays - [cpp](practice/cpp/binary_search/median_of_two_sorted_arrays.cpp)
-  - Remove intervals - [cpp](practice/cpp/binary_search/remove_intervals.cpp)
+  - Remove interval - [cpp](practice/cpp/binary_search/remove_interval.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
