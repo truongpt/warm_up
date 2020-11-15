@@ -13,6 +13,8 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Backtracking](practice/cpp/backtracking)
 - [Trie](practice/cpp/trie)
 - [Binary_tree](practice/cpp/binary_tree)
+  - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
+- [Binary_search](practice/cpp/binary_search)
   - Median of two sorted arrays - [cpp](practice/cpp/binary_search/median_of_two_sorted_arrays.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
