@@ -17,11 +17,14 @@
     - SC: O(m*n)
 
 - Solution 3 - dynamic programming - bottom up.
-
+  - dp[knapsack][index] is max profit of knapsack with index item.
+  - dp[knapsack][index] = max(select index, not select index);
+    - dp[knapsack][index] =  max(dp[knapsack - weight[index]][index-1] + profit[index], dp[knapsack][index-1]);
 */
 
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
@@ -75,27 +78,25 @@ int getMaxProfitSubTP (vector<int>& weight,
 
 int getMaxProfitTP (vector<int>& weight, vector<int>& profit, int knapsack)
 {
-    int index = weight.size()-1;
-    vector<vector<int>> dp (knapsack+1, vector<int>(index, -1));
+    vector<vector<int>> dp (knapsack+1, vector<int>(weight.size(), -1));
     return getMaxProfitSubTP(weight, profit, dp, knapsack, 0);
 }
 
 // Solution 3 - dynamic programming - bottom up
 int getMaxProfitBU (vector<int>& weight, vector<int>& profit, int knapsack)
 {
-    int index = weight.size()-1;
-    vector<vector<int>> dp (knapsack+1, vector<int>(index, 0));
+    vector<vector<int>> dp (knapsack+1, vector<int>(weight.size(), 0));
 
     for (int c = 1; c <= knapsack; c++) {
-        for (int i = 0; i < index; i++) {
-            int d1 = (c >= weight[i] ? dp[c - weight[i]][i-1] : 0);
+        for (int i = 0; i < weight.size(); i++) {
+            int d1 = (c >= weight[i] ? (profit[i] + dp[c - weight[i]][i-1]) : 0);
             int d2 = (i > 0 ? dp[c][i-1] : 0);
             dp[c][i] = max(d1, d2);
         }
     }
 
     
-    return dp[knapsack][index-1];
+    return dp[knapsack][weight.size()-1];
 }
 
 int main(void)

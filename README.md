@@ -9,6 +9,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Sliding_window](practice/cpp/sliding_window)
 - [Greedy](practice/cpp/greedy)
 - [Dynamic_programming](practice/cpp/dynamic_programming)
+  - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
 - [Bit_manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
 - [Trie](practice/cpp/trie)
