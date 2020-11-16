@@ -20,3 +20,4 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Remove interval - [cpp](practice/cpp/binary_search/remove_interval.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
+  - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
