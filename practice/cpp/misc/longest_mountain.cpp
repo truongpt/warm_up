@@ -5,8 +5,10 @@
   - Input: [2,1,4,7,3,2,5]
               ^       ^
              start    end
-              
   - Straightforward count left side + right side
+  - Time & memory
+    - TC : O(n) <- only 1 time for each elements
+    - SC: O(1) <- don't use extend memory
 
 - Reference
   - https://leetcode.com/problems/longest-mountain-in-array/discuss/135593/C%2B%2BJavaPython-1-pass-and-O(1)-space
