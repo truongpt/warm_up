@@ -21,3 +21,4 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
+  - Mirror reflection - [cpp](practice/cpp/misc/mirror_reflection.cpp)
