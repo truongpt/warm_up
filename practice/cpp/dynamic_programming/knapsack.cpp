@@ -17,14 +17,37 @@
     - SC: O(m*n)
 
 - Solution 3 - dynamic programming - bottom up.
+  - From solution 2 -> max profit of (knapsack, index) problem is repeated as subproblem.
   - dp[knapsack][index] is max profit of knapsack with index item.
   - dp[knapsack][index] = max(select index, not select index);
     - dp[knapsack][index] =  max(dp[knapsack - weight[index]][index-1] + profit[index], dp[knapsack][index-1]);
+  - Time & memmory
+    - TC: O(m*n) // m  is knapsack capacity.
+    - SC: O(m*n)
+
+- Solution 4 = solution 3 + optimize
+  - From solition 3: dp[knapsack][index] is calculated from previous index -> dp[knapsack][index-1]
+  - Consider reduce size of dp[knapsack][index].
+    - dp[knapsack][index % 2] =  max(dp[knapsack - weight[index]][(index-1)%2] + profit[index], dp[knapsack][(index-1)%2]);
+  - Time & memmory
+    - TC: O(m*n) // m  is knapsack capacity.
+    - SC: O(m)
+
+- Performance.
+  - Use case at main function.
+  - Result
+    - Solution 1:  565.083 (second)
+    - Solution 2:  0.0007568 (second)
+    - Solution 3:  0.0004755 (second)
+    - Solution 4:  0.0004258 (second)
+
 */
 
 #include <iostream>
 #include <algorithm>
 #include <vector>
+#include <stdlib.h>
+#include "../utility/perf.h"
 
 using namespace std;
 
@@ -99,14 +122,59 @@ int getMaxProfitBU (vector<int>& weight, vector<int>& profit, int knapsack)
     return dp[knapsack][weight.size()-1];
 }
 
+// Solution 3 + optimize memory
+int getMaxProfitBUO (vector<int>& weight, vector<int>& profit, int knapsack)
+{
+    vector<vector<int>> dp (knapsack+1, vector<int>(2, 0));
+    for (int i = 0; i < weight.size(); i++) {
+        for (int c = 1; c <= knapsack; c++) {
+            int d1 = (c >= weight[i] ? (profit[i] + dp[c - weight[i]][i%2]) : 0);
+            int d2 = (i > 0 ? dp[c][i%2] : 0);
+            dp[c][(i+1)%2] = max(d1, d2);
+        }
+    }   
+    return max(dp[knapsack][0], dp[knapsack][1]);
+}
+
 int main(void)
 {
-    vector<int> weight = {2, 3, 1, 4};
-    vector<int> profit = {4, 5, 3, 7};
-    int knapsack = 5;
-    cout << getMaxProfitBF(weight, profit, knapsack) << endl;
-    cout << getMaxProfitTP(weight, profit, knapsack) << endl;
-    cout << getMaxProfitBU(weight, profit, knapsack) << endl;
 
+    int num = 70;
+
+    vector<int> weight; // 1 - 50
+    vector<int> profit; // 1 - 10
+    int knapsack = 25 * num / 10;
+
+    int min_value = 1, max_value = 50, rand_value = 0;
+    for (int i = 0; i < num; i++) {
+        rand_value = min_value + (rand() % static_cast<int>(max_value - min_value + 1));
+        weight.push_back(rand_value);
+    }
+
+    min_value = 1, max_value = 10, rand_value = 0;
+    for (int i = 0; i < num; i++) {
+        rand_value = min_value + (rand() % static_cast<int>(max_value - min_value + 1));
+        profit.push_back(rand_value);
+    }
+
+    {
+        TIME_SCOPE("getMaxProfitBF");
+        cout << getMaxProfitBF(weight, profit, knapsack) << endl;
+    }
+
+    {
+        TIME_SCOPE("getMaxProfitTP");
+        cout << getMaxProfitTP(weight, profit, knapsack) << endl;
+    }
+
+    {
+        TIME_SCOPE("getMaxProfitBU");
+        cout << getMaxProfitBU(weight, profit, knapsack) << endl;
+    }
+
+    {
+        TIME_SCOPE("getMaxProfitBUO");
+        cout << getMaxProfitBUO(weight, profit, knapsack) << endl;
+    }    
     return 0;
 }
