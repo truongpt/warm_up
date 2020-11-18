@@ -18,6 +18,8 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Binary_search](practice/cpp/binary_search)
   - Median of two sorted arrays - [cpp](practice/cpp/binary_search/median_of_two_sorted_arrays.cpp)
   - Remove interval - [cpp](practice/cpp/binary_search/remove_interval.cpp)
+- [Sort](practice/cpp/sort)
+  - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
