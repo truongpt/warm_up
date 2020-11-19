@@ -13,9 +13,9 @@
   - for c : string
     - c != ] -> push stack st.
     - c == ] 
-      - get all character untill reach [ -> temp_dec
+      - get all character untill reach [ -> temp
       - decode number -> num
-      - push all charactor of num x temp_dec to stack st.
+      - push all charactor of num x temp to stack st.
   - convert all character of stack to result string.    
 */
 
@@ -52,15 +52,11 @@ string decodeString(string s)
                 t = st.top();
             }
 
-            string temp_dec = "";
             for (int i = 0; i < num; i++) {
-                temp_dec += temp;
+                for (auto b : temp) {
+                    st.push(b);
+                }
             }
-
-            for (auto b : temp_dec) {
-                st.push(b);
-            }
-            
         } else {
             st.push(c);
         }
