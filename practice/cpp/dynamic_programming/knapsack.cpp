@@ -112,13 +112,12 @@ int getMaxProfitBU (vector<int>& weight, vector<int>& profit, int knapsack)
 
     for (int c = 1; c <= knapsack; c++) {
         for (int i = 0; i < weight.size(); i++) {
-            int d1 = (c >= weight[i] ? (profit[i] + dp[c - weight[i]][i-1]) : 0);
+            int d1 = (c >= weight[i] ? (profit[i] + (i > 0 ? dp[c - weight[i]][i-1] : 0) ) : 0);
             int d2 = (i > 0 ? dp[c][i-1] : 0);
             dp[c][i] = max(d1, d2);
         }
     }
 
-    
     return dp[knapsack][weight.size()-1];
 }
 
