@@ -25,7 +25,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [String](practice/cpp/string)
   - Decode string - [cpp](practice/cpp/string/decode_string.cpp)
 - [Array](practice/cpp/array)
-  - Max Consecutive Ones - [cpp](practice/cpp/string/max_consecutive_ones.cpp)
+  - Max Consecutive Ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
