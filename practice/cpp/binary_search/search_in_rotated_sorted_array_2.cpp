@@ -46,6 +46,24 @@
         - arr[l] > arr[m]
           - arr[l] > target -> l = m+1
           - arr[l] <= target -> r = m-1
+
+- Solution 3.
+  - Binary search as solution 2, but approach of solution 2 is too compicated.
+  - if first elem == last elem -> search all 2 side part -> change to problem first elem != last elem
+  - Solution for first elem != last elem
+    - mid = left + (right-left)/2
+    - Find not rotated part by comparing mid elem vs first elem.
+    - Check target is in non-rotated part by comparing with first and last.
+    - Base on compared result -> go to next part.
+
+- Time & Space complexity of binary search.
+  - TC: 
+    - all elements are duplicated -> the worst case -> O(n)
+    - non duplicated -> the best case -> O(log n)
+  - SC:
+    - all elements are duplicated -> the worst case -> O(log n) for recursion
+    - non duplicated -> the best case -> O(1)
+
 */
 
 #include <iostream>
@@ -92,9 +110,40 @@ bool searchSub(vector<int>& arr, int target, int l, int r)
     return false;
 }
 
+bool searchSub3(vector<int>& arr, int target, int l, int r)
+{
+    if (l > r) return false;
+    if (l == r) return arr[l] == target;
+    if (arr[l] == arr[r]) {
+        return searchSub3(arr, target, l, l + (r-l)/2) || searchSub3(arr, target, l + 1+ (r-l)/2, r);
+    }
+
+    while (l <= r) {
+        int m = l + (r-l)/2;
+        if (arr[m] == target) {
+            return true;
+        } else if (arr[m] >= arr[l]){
+            if (arr[l] <= target && target < arr[m]) {
+                r = m-1;
+            } else {
+                l = m+1;
+            }
+        } else {
+            if (arr[m] < target && target <= arr[r]) {
+                l = m+1;
+            } else {
+                r = m-1;
+            }
+        }
+    }
+
+    return false;
+
+}
+    
 bool search(vector<int>& arr, int target)
 {
-    return searchSub(arr, target, 0, arr.size()-1);
+    return searchSub2(arr, target, 0, arr.size()-1);
 }
 
 int main(void)
