@@ -18,6 +18,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Binary_search](practice/cpp/binary_search)
   - Median of two sorted arrays - [cpp](practice/cpp/binary_search/median_of_two_sorted_arrays.cpp)
   - Remove interval - [cpp](practice/cpp/binary_search/remove_interval.cpp)
+  - Search in Rotated Sorted Array II - [cpp](practice/cpp/binary_search/search_in_rotated_sorted_array_2.cpp)
 - [Sort](practice/cpp/sort)
   - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
   - Array quadruplet - [cpp](practice/cpp/sort/array_quadruplet.cpp)
