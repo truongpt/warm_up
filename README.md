@@ -10,6 +10,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Greedy](practice/cpp/greedy)
 - [Dynamic_programming](practice/cpp/dynamic_programming)
   - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
+  - Partition Equal Subset Sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
 - [Bit_manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
 - [Trie](practice/cpp/trie)
