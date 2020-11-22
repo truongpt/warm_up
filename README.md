@@ -27,6 +27,8 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Decode string - [cpp](practice/cpp/string/decode_string.cpp)
 - [Array](practice/cpp/array)
   - Max Consecutive Ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
+- [Sliding window](practice/cpp/sliding_window)
+  - Longest Substring with At Most Two Distinct Characters - [cpp](practice/cpp/sliding_window/longest_substring_most_two_distinct_characters.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
