@@ -19,9 +19,12 @@ Input: [3,4,5,1,3,null,1]
  1   3   1
 ```
 
-- Solution
+- Solution 1
   - rob root = max (rob left + rob right, root value + rob left left + rob left right + rob right left + rob right right)
   - Top down by recursion + memoization
+
+- Solution 2
+  - Idea is same as solution 1 but difference implementation.
 
 */
 
@@ -39,8 +42,8 @@ struct TreeNode {
 };
 
 
+// Solution 1
 unordered_map<TreeNode*, int> m;
-
 int rob(TreeNode* root)
 {
     if (nullptr == root) {
@@ -57,6 +60,27 @@ int rob(TreeNode* root)
 
     m[root] = max(val1, val2);
     return m[root];
+}
+
+// Solution 2
+int dfs(TreeNode* root, int& l, int& r)
+{
+    if (nullptr == root) {
+        l = 0, r = 0;
+        return 0;
+    }
+
+    int ll = 0, lr = 0, rl = 0, rr = 0;
+    l = dfs(root->left, ll, lr);
+    r = dfs(root->right, rl, rr);
+
+    return max(root->val + ll + lr + rl + rr, l + r);
+}
+
+int rob2(TreeNode* root)
+{
+    int l = 0, r = 0;
+    return dfs(root, l, r);
 }
 
 int main(void)
