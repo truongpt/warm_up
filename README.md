@@ -37,3 +37,4 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
   - Mirror reflection - [cpp](practice/cpp/misc/mirror_reflection.cpp)
   - Numbers At Most N Given Digit Set - [cpp](practice/cpp/misc/number_most_n_given_digit_set.cpp)
+  - Basic Calculator II - [cpp](practice/cpp/misc/basic_calculator_2.cpp)
