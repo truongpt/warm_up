@@ -22,62 +22,36 @@ using namespace std;
 
 int calculate(string s)
 {
-    int sign = 1;
-    string elem = "";
+    int elem = 0;
     stack<int> num;
-    stack<char> op;
-    for (auto it : s) {
-        if ('*' == it ||
-            '/' == it ||
-            '+' == it ||
-            '-' == it) {
-
-            if (!elem.empty()) {
-                int cur_num = stoi(elem);
-                cur_num = sign*cur_num;
-                cout << "cur_num:" << cur_num << endl;                 
-                if (!op.empty() && (op.top() == '*' || op.top() == '/')) {
-                    char cur_op = op.top();
-                    op.pop();
-                    int pre_num = num.top();
-                    num.pop();
-                    num.push((cur_op == '*' ? pre_num * cur_num : pre_num / cur_num));
-                } else {
-                    num.push(cur_num);
-                }
-                elem = "";
-            }
-
-            if ('-' == it) {
-                it = '+';
-                sign = -1;
-            } else {
-                sign = 1;
-            }
-            op.push(it);
-        } else if (it >= '0' && it <= '9') {
-            elem = elem + it;
+    char op = '+';
+    for (int i = 0; i < s.length(); i++) {
+        char c = s[i];
+        if (c >= '0' && c <= '9') {
+            elem = elem*10 +  c - '0';
         }
-    }
-
-    if (!elem.empty()) {
-        int cur_num = stoi(elem);
-        cur_num = sign*cur_num;
-        char cur_op = op.top();
-
-        if (!op.empty() && (op.top() == '*' || op.top() == '/')) {
-            char cur_op = op.top();
-            op.pop();
-            int pre_num = num.top();
-            num.pop();
-            num.push((cur_op == '*' ? pre_num * cur_num : pre_num / cur_num));
-        } else {
-            num.push(cur_num);
+        
+        if ('*' == c ||
+            '/' == c ||
+            '+' == c ||
+            '-' == c ||
+            i == s.length()-1) {
+            // cout << elem << endl;
+            if ('-' == op) {
+                num.push(-elem);
+            } else if ('+' == op) {
+                num.push(elem);
+            } else if ('*' == op || '/' == op) {
+                int pre = num.top();
+                num.pop();
+                num.push(('*' == op ? pre * elem : pre / elem));
+            }
+            elem = 0;
+            op = c;
         }
     }
 
     int res = 0;
-
     while (!num.empty()) {
         res += num.top();
         num.pop();
