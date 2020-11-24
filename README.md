@@ -11,6 +11,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Dynamic_programming](practice/cpp/dynamic_programming)
   - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
   - Partition Equal Subset Sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
+  - House robber iii - [cpp](practice/cpp/dynamic_programming/house_robber_3.cpp)
 - [Bit_manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
 - [Trie](practice/cpp/trie)
