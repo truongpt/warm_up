@@ -1,9 +1,18 @@
 /*
-- Problem:
+- Problem: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 
-- Solution
-  - Checking all character with frequency < k
-  - recursive ...
+```
+s = "abaaacccc", k = 2
+       ^
+```
+
+- Solution -  divide conquer
+  - Calculate frequency of all character.
+  - Divice at the point, which frequency is smaller than K.
+  - Recursive ...
+  - Time & space complexity.
+    - TC : O(n^2)
+    - SC: O(n)
 
 */
 
@@ -24,22 +33,18 @@ int longestSection(string s, int k, int start, int end)
         freq[s[i]]++;
     }
 
-    int max_len = 0;
-    int j = start;
     bool is_divide = false;
     for (int i = start; i <= end; i++) {
         if ( freq[s[i]] < k) {
-            is_divide = true;
-            max_len = max(max_len, longestSection(s, k, j, i-1));
-            j = i+1;
+            int mid = i+1;
+            while (mid <= end && freq[s[mid]] < k) {
+                mid++;
+            }
+            return max(longestSection(s, k, mid, end), longestSection(s, k, start, i-1));
         }
     }
 
-    if (j < end && is_divide) {
-        max_len = max(max_len, longestSection(s, k, j, end));
-    }
-        
-    return (is_divide ?  max_len : end-start+1);
+    return end-start+1;
 }
 
 int longestSubString(string s, int k)

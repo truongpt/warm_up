@@ -33,6 +33,8 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Longest Substring with At Most Two Distinct Characters - [cpp](practice/cpp/sliding_window/longest_substring_most_two_distinct_characters.cpp)
 - [Two pointers](practice/cpp/two_pointers)
   - Squares of a Sorted Array - [cpp](practice/cpp/two_pointers/squares_of_sorted_array.cpp)
+- [Divide and conquer](practice/cpp/divide_and_conquer)
+  - Longest Substring with At Least K Repeating Characters - [cpp](practice/cpp/divide_and_conquer/longest_substring_at_least_k_repeating_char.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
@@ -40,4 +42,3 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Numbers At Most N Given Digit Set - [cpp](practice/cpp/misc/number_most_n_given_digit_set.cpp)
   - Basic Calculator II - [cpp](practice/cpp/misc/basic_calculator_2.cpp)
   - Smallest Integer Divisible by K - [cpp](practice/cpp/misc/smallest_integer_divisible_k.cpp)
-  - Longest Substring with At Least K Repeating Characters - [cpp](practice/cpp/misc/longest_substring_at_least_k_repeating_char.cpp)
