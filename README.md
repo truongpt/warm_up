@@ -40,3 +40,4 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Numbers At Most N Given Digit Set - [cpp](practice/cpp/misc/number_most_n_given_digit_set.cpp)
   - Basic Calculator II - [cpp](practice/cpp/misc/basic_calculator_2.cpp)
   - Smallest Integer Divisible by K - [cpp](practice/cpp/misc/smallest_integer_divisible_k.cpp)
+  - Longest Substring with At Least K Repeating Characters - [cpp](practice/cpp/misc/longest_substring_at_least_k_repeating_char.cpp)
