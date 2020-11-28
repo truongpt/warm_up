@@ -29,6 +29,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Array](practice/cpp/array)
   - Max Consecutive Ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
   - Duplicate Zeros - [cpp](practice/cpp/array/duplicate_zeros.cpp)
+  - Merge Sorted Array - [cpp](practice/cpp/array/merge_sorted_array.cpp)
 - [Sliding window](practice/cpp/sliding_window)
   - Longest Substring with At Most Two Distinct Characters - [cpp](practice/cpp/sliding_window/longest_substring_most_two_distinct_characters.cpp)
 - [Two pointers](practice/cpp/two_pointers)
