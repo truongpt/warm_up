@@ -12,6 +12,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Max Consecutive Ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
   - Duplicate Zeros - [cpp](practice/cpp/array/duplicate_zeros.cpp)
   - Merge Sorted Array - [cpp](practice/cpp/array/merge_sorted_array.cpp)
+  - Remove Element - [cpp](practice/cpp/array/remove_element.cpp)
 - [Trie](practice/cpp/trie)
 - [Queue and Stack](practice/cpp/queue_stack)
   - Sliding Window Max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
