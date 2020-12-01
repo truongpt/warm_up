@@ -7,6 +7,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 
 - [String](practice/cpp/string)
   - Decode string - [cpp](practice/cpp/string/decode_string.cpp)
+  - Shorted Word Distance - [cpp](practice/cpp/string/shorted_word_distance.cpp)
 - [Array](practice/cpp/array)
   - Max Consecutive Ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
   - Duplicate Zeros - [cpp](practice/cpp/array/duplicate_zeros.cpp)
@@ -16,6 +17,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Sliding Window Max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
 - [Binary_tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
+  - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
 - [Graph](practice/cpp/graph)
   - Jump Game 3 - [cpp](practice/cpp/graph/jump_game_3.cpp)
 - [Greedy](practice/cpp/greedy)
