@@ -14,6 +14,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Merge Sorted Array - [cpp](practice/cpp/array/merge_sorted_array.cpp)
   - Remove Element - [cpp](practice/cpp/array/remove_element.cpp)
   - Remove duplicate sorted array - [cpp](practice/cpp/array/remove_duplicate_sorted_array.cpp)
+  - Replace Elements with Greatest Element on Right Side - [cpp](practice/cpp/array/replace_element_with_greatest_elem_on_right_side.cpp)
 - [Trie](practice/cpp/trie)
 - [Queue and Stack](practice/cpp/queue_stack)
   - Sliding Window Max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
