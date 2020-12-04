@@ -2,6 +2,14 @@
 - Problem: https://leetcode.com/problems/the-kth-factor-of-n/
 - Solution 1.
   - Brute force -> check all factor from 1 to n
+  - Time & space complexity
+    - TC: O(n)
+    - SC: O(1)
+- Solution 2.
+  - Using heap
+  - Time & space complexity
+    - TC: O(log k * sqrt n)
+    - SC: O(k)
 */
 
 
