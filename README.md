@@ -24,6 +24,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Graph](practice/cpp/graph)
   - Jump Game 3 - [cpp](practice/cpp/graph/jump_game_3.cpp)
 - [Greedy](practice/cpp/greedy)
+  - Can Place Flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
 - [Dynamic_programming](practice/cpp/dynamic_programming)
   - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
   - Partition Equal Subset Sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
