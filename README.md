@@ -10,6 +10,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Shorted Word Distance - [cpp](practice/cpp/string/shorted_word_distance.cpp)
 - [Array](practice/cpp/array)
   - Max Consecutive Ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
+  - Max Consecutive Ones 2 - [cpp](practice/cpp/array/max_consecutive_ones_2.cpp)
   - Duplicate Zeros - [cpp](practice/cpp/array/duplicate_zeros.cpp)
   - Merge Sorted Array - [cpp](practice/cpp/array/merge_sorted_array.cpp)
   - Remove Element - [cpp](practice/cpp/array/remove_element.cpp)
