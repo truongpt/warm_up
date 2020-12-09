@@ -24,6 +24,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Binary_tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
   - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
+  - Check Superbalanced - [cpp](practice/cpp/binary_tree/balanced_binary_tree.cpp)
 - [Graph](practice/cpp/graph)
   - Jump Game 3 - [cpp](practice/cpp/graph/jump_game_3.cpp)
 - [Greedy](practice/cpp/greedy)
