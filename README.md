@@ -18,6 +18,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Replace Elements with Greatest Element on Right Side - [cpp](practice/cpp/array/replace_element_with_greatest_elem_on_right_side.cpp)
   - Heigh checker - [cpp](practice/cpp/array/height_checker.cpp)
   - Spiral Matrix II - [cpp](practice/cpp/array/spiral_matrix_2.cpp)
+  - Third Maximum Number - [cpp](practice/cpp/array/third_maximum_number.cpp)
 - [Trie](practice/cpp/trie)
 - [Queue and Stack](practice/cpp/queue_stack)
   - Sliding Window Max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
