@@ -20,6 +20,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Heigh checker - [cpp](practice/cpp/array/height_checker.cpp)
   - Spiral Matrix II - [cpp](practice/cpp/array/spiral_matrix_2.cpp)
   - Third Maximum Number - [cpp](practice/cpp/array/third_maximum_number.cpp)
+  - Find All Numbers Disappeared in an Array - [cpp](practice/cpp/array/find_all_numbers_disappeared_in_array.cpp)
 - [Trie](practice/cpp/trie)
 - [Queue and Stack](practice/cpp/queue_stack)
   - Sliding Window Max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
