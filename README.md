@@ -15,6 +15,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Merge Sorted Array - [cpp](practice/cpp/array/merge_sorted_array.cpp)
   - Remove Element - [cpp](practice/cpp/array/remove_element.cpp)
   - Remove duplicate sorted array - [cpp](practice/cpp/array/remove_duplicate_sorted_array.cpp)
+  - Remove duplicate sorted array II - [cpp](practice/cpp/array/remove_duplicates_sorted_array_2.cpp)
   - Replace Elements with Greatest Element on Right Side - [cpp](practice/cpp/array/replace_element_with_greatest_elem_on_right_side.cpp)
   - Heigh checker - [cpp](practice/cpp/array/height_checker.cpp)
   - Spiral Matrix II - [cpp](practice/cpp/array/spiral_matrix_2.cpp)
