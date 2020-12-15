@@ -40,6 +40,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Partition Equal Subset Sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
   - House robber iii - [cpp](practice/cpp/dynamic_programming/house_robber_3.cpp)
   - Burst Balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
+  - Parlindrome Partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
 - [Bit_manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
 - [Sliding window](practice/cpp/sliding_window)
