@@ -1,7 +1,7 @@
 /*
-- Problem: https://leetcode.com/problems/binary-tree-preorder-traversal/
-- Solution:
-  - preorder binary tree: root -> left subtree -> right subtree
+- Problem: https://leetcode.com/problems/binary-tree-inorder-traversal
+- Solution: 
+  - inorder binary tree: left subtree -> root -> right subtree
   - Rercusion.
 */
 
@@ -9,13 +9,13 @@
 #include <vector>
 using namespace std;
 
-struct TreeNode {
+struct TreeNode{
     int val;
     TreeNode* left;
     TreeNode* right;
-    TreeNode(): val(0), left(nullptr), right(nullptr) {};
-    TreeNode(int v): val(v), left(nullptr), right(nullptr) {};
-    TreeNode(int v, TreeNode* l, TreeNode* r): val(v), left(l), right(r) {};
+    TreeNode(): val (0), left(nullptr), right(nullptr) {};
+    TreeNode(int v): val (v), left(nullptr), right(nullptr) {};
+    TreeNode(int v, TreeNode* l, TreeNode* r): val (0), left(l), right(r) {};
 };
 
 void traversalRecursion(TreeNode* root, vector<int>& arr)
@@ -24,12 +24,12 @@ void traversalRecursion(TreeNode* root, vector<int>& arr)
         return;
     }
 
-    arr.push_back(root->val);
     traversalRecursion(root->left, arr);
+    arr.push_back(root->val);
     traversalRecursion(root->right, arr);
 }
 
-vector<int> preorderTraversal(TreeNode* root)
+vector<int> inorderTraversal(TreeNode* root)
 {
     vector<int> arr = {};
     traversalRecursion(root, arr);
@@ -41,7 +41,7 @@ int main(void)
     TreeNode* root = new TreeNode(1);
     root->left = new TreeNode(2);
     root->right = new TreeNode(3);
-    vector<int> res = preorderTraversal(root);
+    vector<int> res = inorderTraversal(root);
 
     for (auto it : res) {
         cout << it << ",";
