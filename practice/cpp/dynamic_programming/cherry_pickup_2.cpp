@@ -14,11 +14,10 @@
 using namespace std;
 
 typedef vector<vector<int>> vvi;
-typedef unordered_map<int, unordered_map<int,int>> mmi;
 
-#define COL_MAX 70
+#define COL_MAX 71
 
-int pickup(vvi& grid, mmi& dp, int row, int col1, int col2)
+int pickup(vvi& grid, int dp[COL_MAX][COL_MAX][COL_MAX], int row, int col1, int col2)
 {
     if (row >= grid.size() ||
         col1 < 0 || col1 >= grid[0].size() ||
@@ -26,10 +25,9 @@ int pickup(vvi& grid, mmi& dp, int row, int col1, int col2)
         return 0;
     }
 
-    if (dp[row*COL_MAX + col1][row*COL_MAX + col2]) {
-        return dp[row*COL_MAX + col1][row*COL_MAX + col2];
+    if (dp[row][col1][col2]) {
+        return dp[row][col1][col2];
     }
-
     int cur_cherry = 0;
     if (col1 == col2) {
         cur_cherry = grid[row][col1];
@@ -44,8 +42,8 @@ int pickup(vvi& grid, mmi& dp, int row, int col1, int col2)
         }
     }
 
-    dp[row*COL_MAX + col1][row*COL_MAX + col2] = cur_cherry + next_cherry;
-    return dp[row*COL_MAX + col1][row*COL_MAX + col2];
+    dp[row][col1][col2] = cur_cherry + next_cherry;
+    return dp[row][col1][col2];
 }
 
 int cherryPickup(vvi& grid)
@@ -53,7 +51,8 @@ int cherryPickup(vvi& grid)
     if (grid.empty()) {
         return 0;
     }
-    mmi dp;
+
+    int dp[COL_MAX][COL_MAX][COL_MAX] = {};
     return pickup(grid, dp, 0, 0, grid[0].size()-1);
 }
 
