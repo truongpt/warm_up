@@ -34,6 +34,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Postorder traversal - [cpp](practice/cpp/binary_tree/bt_postorder_traversal.cpp)
   - Inorder traversal - [cpp](practice/cpp/binary_tree/bt_inorder_traversal.cpp)
   - Level order traversal - [cpp](practice/cpp/binary_tree/bt_level_order_traversal.cpp)
+  - Symmetric Tree - [cpp](practice/cpp/binary_tree/symmetric_tree.cpp)
 - [Graph](practice/cpp/graph)
   - Jump game III - [cpp](practice/cpp/graph/jump_game_3.cpp)
   - Roads and libraries - [cpp](practice/cpp/graph/roads_and_libraries.cpp)
