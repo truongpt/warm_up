@@ -36,6 +36,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Preorder traversal - [cpp](practice/cpp/binary_tree/bt_preorder_traversal.cpp)
   - Postorder traversal - [cpp](practice/cpp/binary_tree/bt_postorder_traversal.cpp)
   - Inorder traversal - [cpp](practice/cpp/binary_tree/bt_inorder_traversal.cpp)
+  - Construct binary tree from inorder and postorder traversal - [cpp](practice/cpp/binary_tree/construct_bt_from_preorder_inorder_traversal.cpp)
   - Level order traversal - [cpp](practice/cpp/binary_tree/bt_level_order_traversal.cpp)
   - Symmetric Tree - [cpp](practice/cpp/binary_tree/symmetric_tree.cpp)
 - [Graph](practice/cpp/graph)
