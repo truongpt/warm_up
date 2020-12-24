@@ -24,7 +24,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Find all numbers disappeared in an array - [cpp](practice/cpp/array/find_all_numbers_disappeared_in_array.cpp)
   - Next greater element III - [cpp](practice/cpp/array/next_greater_element_3.cpp)
 - [Linked list](practice/cpp/linked_list)
-  - Swap nodes in pairs - [cpp](practice/cpp/array/swap_nodes_in_pair.cpp)
+  - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
 - [Trie](practice/cpp/trie)
 - [Queue and Stack](practice/cpp/queue_stack)
   - Sliding Window Max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
