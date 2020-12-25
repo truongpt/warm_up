@@ -23,6 +23,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Third Maximum Number - [cpp](practice/cpp/array/third_maximum_number.cpp)
   - Find all numbers disappeared in an array - [cpp](practice/cpp/array/find_all_numbers_disappeared_in_array.cpp)
   - Next greater element III - [cpp](practice/cpp/array/next_greater_element_3.cpp)
+  - Diagonal traverse - [cpp](practice/cpp/array/diagonal_traverse.cpp)
 - [Linked list](practice/cpp/linked_list)
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
 - [Trie](practice/cpp/trie)
