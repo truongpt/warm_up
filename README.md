@@ -52,6 +52,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Burst balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
   - Parlindrome partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
   - Cherry pickup II - [cpp](practice/cpp/dynamic_programming/cherry_pickup_2.cpp)
+  - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
 - [Bit manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
 - [Sliding window](practice/cpp/sliding_window)
