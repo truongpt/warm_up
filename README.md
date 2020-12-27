@@ -24,8 +24,6 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Find all numbers disappeared in an array - [cpp](practice/cpp/array/find_all_numbers_disappeared_in_array.cpp)
   - Next greater element III - [cpp](practice/cpp/array/next_greater_element_3.cpp)
   - Diagonal traverse - [cpp](practice/cpp/array/diagonal_traverse.cpp)
-  - Jump game III - [cpp](practice/cpp/array/jump_game_3.cpp)
-  - Jump game IV - [cpp](practice/cpp/array/jump_game_4.cpp)
 
 - [Linked list](practice/cpp/linked_list)
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
@@ -45,6 +43,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Symmetric Tree - [cpp](practice/cpp/binary_tree/symmetric_tree.cpp)
 - [Graph](practice/cpp/graph)
   - Jump game III - [cpp](practice/cpp/graph/jump_game_3.cpp)
+  - Jump game IV - [cpp](practice/cpp/graph/jump_game_4.cpp)
   - Roads and libraries - [cpp](practice/cpp/graph/roads_and_libraries.cpp)
 - [Greedy](practice/cpp/greedy)
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
