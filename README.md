@@ -24,6 +24,9 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Find all numbers disappeared in an array - [cpp](practice/cpp/array/find_all_numbers_disappeared_in_array.cpp)
   - Next greater element III - [cpp](practice/cpp/array/next_greater_element_3.cpp)
   - Diagonal traverse - [cpp](practice/cpp/array/diagonal_traverse.cpp)
+  - Jump game III - [cpp](practice/cpp/array/jump_game_3.cpp)
+  - Jump game IV - [cpp](practice/cpp/array/jump_game_4.cpp)
+
 - [Linked list](practice/cpp/linked_list)
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
 - [Trie](practice/cpp/trie)
