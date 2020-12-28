@@ -45,6 +45,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Jump game III - [cpp](practice/cpp/graph/jump_game_3.cpp)
   - Jump game IV - [cpp](practice/cpp/graph/jump_game_4.cpp)
   - Roads and libraries - [cpp](practice/cpp/graph/roads_and_libraries.cpp)
+  - Reach a number - [cpp](practice/cpp/graph/reach_a_number.cpp)
 - [Greedy](practice/cpp/greedy)
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
 - [Dynamic programming](practice/cpp/dynamic_programming)
