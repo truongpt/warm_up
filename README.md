@@ -64,6 +64,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Squares of a sorted array - [cpp](practice/cpp/two_pointers/squares_of_sorted_array.cpp)
 - [Divide and conquer](practice/cpp/divide_and_conquer)
   - Longest substring with at least K repeating characters - [cpp](practice/cpp/divide_and_conquer/longest_substring_at_least_k_repeating_char.cpp)
+  - [ ] Largest rectangle in histogram - [cpp](practice/cpp/divide_and_conquer/largest_rectangle_in_histogram.cpp)
 - [Binary search](practice/cpp/binary_search)
   - Median of two sorted arrays - [cpp](practice/cpp/binary_search/median_of_two_sorted_arrays.cpp)
   - Remove interval - [cpp](practice/cpp/binary_search/remove_interval.cpp)
