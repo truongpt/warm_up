@@ -61,6 +61,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
 - [Bit manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
+  - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
 - [Sliding window](practice/cpp/sliding_window)
   - Longest substring with at most two distinct characters - [cpp](practice/cpp/sliding_window/longest_substring_most_two_distinct_characters.cpp)
 - [Two pointers](practice/cpp/two_pointers)
