@@ -26,6 +26,8 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Diagonal traverse - [cpp](practice/cpp/array/diagonal_traverse.cpp)
   - Game of life - [cpp](practice/cpp/array/game_of_life.cpp.cpp)
   - Check Array Formation Through Concatenation - [cpp](practice/cpp/array/check_array_formation_through_concatenation.cpp)
+  - Rotate image - [cpp](practice/cpp/array/rotate_image.cpp)
+  - Valid sodoku - [cpp](practice/cpp/array/valid_sodoku.cpp)
 - [Linked list](practice/cpp/linked_list)
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
   - Merge two sorted lists - [cpp](practice/cpp/linked_list/merge_two_sorted_list.cpp)
