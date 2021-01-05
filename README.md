@@ -31,6 +31,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Linked list](practice/cpp/linked_list)
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
   - Merge two sorted lists - [cpp](practice/cpp/linked_list/merge_two_sorted_list.cpp)
+  - Remove duplicates from sorted list II - [cpp](practice/cpp/linked_list/remove_duplicates_from_sorted_list_2.cpp)
 - [Trie](practice/cpp/trie)
 - [Queue and Stack](practice/cpp/queue_stack)
   - Sliding window max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
