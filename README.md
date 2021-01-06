@@ -80,6 +80,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Search in rotated sorted array II - [cpp](practice/cpp/binary_search/search_in_rotated_sorted_array_2.cpp)
   - Increasing order search tree - [cpp](practice/cpp/binary_search/increasing_order_search_tree.cpp)
   - Validate binary search tree - [cpp](practice/cpp/binary_search/validate_binary_search_tree.cpp)
+  - Kth missing positive number - [cpp](practice/cpp/binary_search/kth_missing_possitive_number.cpp)
 - [Sort](practice/cpp/sort)
   - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
   - Array quadruplet - [cpp](practice/cpp/sort/array_quadruplet.cpp)
