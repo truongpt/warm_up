@@ -69,6 +69,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
 - [Sliding window](practice/cpp/sliding_window)
   - Longest substring with at most two distinct characters - [cpp](practice/cpp/sliding_window/longest_substring_most_two_distinct_characters.cpp)
+  - Longest substring without repeating characters - [cpp](practice/cpp/sliding_window/longest_substring_without_repeat_char.cpp)
 - [Two pointers](practice/cpp/two_pointers)
   - Squares of a sorted array - [cpp](practice/cpp/two_pointers/squares_of_sorted_array.cpp)
 - [Divide and conquer](practice/cpp/divide_and_conquer)
