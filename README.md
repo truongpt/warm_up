@@ -57,13 +57,64 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Greedy](practice/cpp/greedy)
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
 - [Dynamic programming](practice/cpp/dynamic_programming)
-  - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
-  - Partition equal subset sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
-  - House robber III - [cpp](practice/cpp/dynamic_programming/house_robber_3.cpp)
-  - Burst balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
-  - Parlindrome partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
-  - Cherry pickup II - [cpp](practice/cpp/dynamic_programming/cherry_pickup_2.cpp)
-  - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
+  - Liner DP
+    - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
+    - Best time to buy and sell stock  - [cpp](practice/cpp/dynamic_programming/best_time_to_buy.cpp)
+    - [ ] https://leetcode.com/problems/min-cost-climbing-stairs/
+    - [ ] https://leetcode.com/problems/divisor-game/
+    - [ ] https://leetcode.com/problems/decode-ways/
+    - [ ] https://leetcode.com/problems/unique-binary-search-trees/
+    - [ ] https://leetcode.com/problems/house-robber/
+    - [ ] https://leetcode.com/problems/perfect-squares/
+    - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+    - [ ] https://leetcode.com/problems/coin-change/
+    - [ ] https://leetcode.com/problems/counting-bits/
+    - [ ] https://leetcode.com/problems/integer-break/
+    - [ ] https://leetcode.com/problems/count-numbers-with-unique-digits/
+    - [ ] https://leetcode.com/problems/wiggle-subsequence/
+    - [ ] https://leetcode.com/problems/partition-equal-subset-sum/
+    - [ ] https://leetcode.com/problems/maximum-length-of-pair-chain/
+    - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+    - [ ] https://leetcode.com/problems/delete-and-earn/
+    - [ ] https://leetcode.com/problems/domino-and-tromino-tiling/
+    - [ ] https://leetcode.com/problems/knight-dialer/
+    - [ ] https://leetcode.com/problems/minimum-cost-for-tickets/
+    - [ ] https://leetcode.com/problems/partition-array-for-maximum-sum/
+    - [ ] https://leetcode.com/problems/filling-bookcase-shelves/
+    - [ ] https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
+    - [ ] https://leetcode.com/problems/greatest-sum-divisible-by-three/
+    - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+    - [ ] https://leetcode.com/problems/student-attendance-record-ii/
+    - [ ] https://leetcode.com/problems/decode-ways-ii/
+    - [ ] https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/
+    - [ ] https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+    - [ ] https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
+    - [ ] https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/
+    - [ ] https://leetcode.com/problems/stone-game-iii/
+    - [ ] https://leetcode.com/problems/restore-the-array/
+    - [ ] https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+    - [ ] https://leetcode.com/problems/stone-game-iv/
+    - [ ] https://leetcode.com/problems/coin-change-2/
+  - Knapsack  
+    - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
+    - Partition equal subset sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
+    - [ ] https://leetcode.com/problems/house-robber-ii/
+    - [ ] https://leetcode.com/problems/ones-and-zeroes/
+    - [ ] https://leetcode.com/problems/target-sum/
+    - [ ] https://leetcode.com/problems/shopping-offers/
+    - [ ] https://leetcode.com/problems/2-keys-keyboard/
+    - [ ] https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+    - [ ] https://leetcode.com/problems/best-team-with-no-conflicts/
+    - [ ] https://leetcode.com/problems/profitable-schemes/
+    - [ ] https://leetcode.com/problems/tallest-billboard/
+    - [ ] https://leetcode.com/problems/pizza-with-3n-slices/
+    - [ ] https://leetcode.com/problems/reducing-dishes/
+  - Misc
+    - House robber III - [cpp](practice/cpp/dynamic_programming/house_robber_3.cpp)
+    - Burst balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
+    - Parlindrome partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
+    - Cherry pickup II - [cpp](practice/cpp/dynamic_programming/cherry_pickup_2.cpp)
+    - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
 - [Bit manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
   - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
