@@ -146,3 +146,4 @@ Practice over and over, because the God doesn't give us the shortcut.
   - The Kth factor of N - [cpp](practice/cpp/misc/the_kth_factor_n.cpp)
   - Pairs of songs with total durations divisible by 60 - [cpp](practice/cpp/misc/pair_song_with_total_duration_divisible_60.cpp)
   - Smallest range II - [cpp](practice/cpp/misc/smallest_range_2.cpp)
+  - Create sorted array through instructions - [cpp](practice/cpp/misc/create_sorted_array_through_instructions.cpp)
