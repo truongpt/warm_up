@@ -61,8 +61,8 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
     - Best time to buy and sell stock  - [cpp](practice/cpp/dynamic_programming/best_time_to_buy.cpp)
     - Min cost climbing stairs - [cpp](https://leetcode.com/problems/min-cost-climbing-stairs)
-    - Divisor game - [cpp](https://leetcode.com/problems/divisor-game)
-    - [ ] https://leetcode.com/problems/decode-ways/
+    - Divisor game - [cpp](https://leetcode.com/problems/divisor_game.cpp)
+    - Decode ways - [cpp](https://leetcode.com/problems/decode_ways.cpp)
     - [ ] https://leetcode.com/problems/unique-binary-search-trees/
     - [ ] https://leetcode.com/problems/house-robber/
     - [ ] https://leetcode.com/problems/perfect-squares/
