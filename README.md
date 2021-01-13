@@ -56,6 +56,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Find a corresponding node of a binary tree in a clone of that tree - [cpp](practice/cpp/graph/corresponding_node_tree.cpp)
 - [Greedy](practice/cpp/greedy)
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
+  - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
 - [Dynamic programming](practice/cpp/dynamic_programming)
   - Liner DP
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
