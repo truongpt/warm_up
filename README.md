@@ -61,11 +61,11 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Liner DP
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
     - Best time to buy and sell stock  - [cpp](practice/cpp/dynamic_programming/best_time_to_buy.cpp)
-    - Min cost climbing stairs - [cpp](https://leetcode.com/problems/min-cost-climbing-stairs)
-    - Divisor game - [cpp](https://leetcode.com/problems/divisor_game.cpp)
-    - Decode ways - [cpp](https://leetcode.com/problems/decode_ways.cpp)
-    - Unique binary search trees - [cpp](https://leetcode.com/problems/unique-binary-search-trees)
-    - [ ] https://leetcode.com/problems/house-robber/
+    - Min cost climbing stairs - [cpp](practice/cpp/dynamic_programming/min_cost_climbing_stairs.cpp)
+    - Divisor game - [cpp](practice/cpp/dynamic_programming/divisor_game.cpp)
+    - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
+    - Unique binary search trees - [cpp](practice/cpp/dynamic_programming/unique_binary_search_trees.cpp)
+    - House robber - [cpp](practice/cpp/dynamic_programming/house_robber.cpp)
     - [ ] https://leetcode.com/problems/perfect-squares/
     - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
     - [ ] https://leetcode.com/problems/coin-change/
@@ -115,7 +115,6 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Burst balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
     - Parlindrome partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
     - Cherry pickup II - [cpp](practice/cpp/dynamic_programming/cherry_pickup_2.cpp)
-    - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
 - [Bit manipulation](practice/cpp/bit_manipulation)
 - [Backtracking](practice/cpp/backtracking)
   - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
