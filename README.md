@@ -67,7 +67,7 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
     - Unique binary search trees - [cpp](practice/cpp/dynamic_programming/unique_binary_search_trees.cpp)
     - House robber - [cpp](practice/cpp/dynamic_programming/house_robber.cpp)
-    - [ ] https://leetcode.com/problems/perfect-squares/
+    - Perfect squares - [cpp](practice/cpp/dynamic_programming/perfect_squares.cpp)
     - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
     - [ ] https://leetcode.com/problems/coin-change/
     - [ ] https://leetcode.com/problems/counting-bits/
