@@ -75,7 +75,7 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Perfect squares - [cpp](practice/cpp/dynamic_programming/perfect_squares.cpp)
     - Count sorted vowel strings - [cpp](practice/cpp/dynamic_programming/count_sorted_vowel_string.cpp)
     - Longest palindromic substring - [cpp](practice/cpp/dynamic_programming/longest_palindromic_substring.cpp) 
-    - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+    - Best time to buy and sell stock with cooldown - [cpp](practice/cpp/dynamic_programming/buy_sell_with_cooldown.cpp) 
     - [ ] https://leetcode.com/problems/coin-change/
     - [ ] https://leetcode.com/problems/counting-bits/
     - [ ] https://leetcode.com/problems/integer-break/

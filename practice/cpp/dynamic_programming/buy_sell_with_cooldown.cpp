@@ -1,4 +1,14 @@
-// problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+/*
+- Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+- Solution:
+  - Dynamic programming
+    - IDEA: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking)
+  - Add optimize memmory
+  - Time and space complexity
+    - TC: O(n)
+    - SC: O(1)
+*/
+
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -6,20 +16,50 @@
 #include <climits>
 
 using namespace std;
+/*
+- REST: rest 
+- SELL: can sell state
+- BUY:  can buy state
+*/
 
-// IDEA: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking)
-int MaxProfit(vector<int>& p)
+int MaxProfit1(vector<int>& p)
 {
+    if (p.empty()) {
+        return 0;
+    }
     int n = p.size();
-    int rest = 0, buy = -p[0], sell = INT_MIN;
-    for (int i = 1; i < n; i++) {
-        int pre_buy = buy;
-        buy = max(rest-p[i], buy);
-        rest = max(rest, sell);
-        sell = pre_buy + p[i];
+    vector<int> rest(n,0), sell(n,0), buy(n,0);
+    rest[0] = 0;
+    sell[0] = -p[0];
+    buy[0] = 0;
+
+    for (int i = 1; i < p.size(); i++) {
+        rest[i] = sell[i-1] + p[i];
+        buy[i] = max(buy[i-1], rest[i-1]);
+        sell[i] = max(sell[i-1], buy[i-1] - p[i]);
     }
 
-    return max(sell, rest);
+    return max(rest.back(), buy.back());
+}
+
+int MaxProfit(vector<int>& p)
+{
+    if (p.empty()) {
+        return 0;
+    }
+
+    int rest = 0;
+    int sell = -p[0];
+    int buy = 0;
+
+    for (int i = 1; i < p.size(); i++) {
+        int pre_rest = rest;
+        rest = sell + p[i];
+        sell = max(sell, buy - p[i]);
+        buy = max(buy , pre_rest);
+    }
+
+    return max(rest, buy);
 }
 
 int main(void)
