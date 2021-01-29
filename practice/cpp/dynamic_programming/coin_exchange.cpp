@@ -1,8 +1,17 @@
-// problem: https://leetcode.com/problems/coin-change/
+/*
+- Problem: https://leetcode.com/problems/coin-change/
+- Solution:
+  - Dynamic programming.
+    - d[amount] is result coresponding to amount
+    - d[i] = min(d[i - coin]+1, d[i]) with coin is all element of coins.
+  - Time and space complexity
+    - TC: O(n * m), n is amount, m is size of coins.
+    - SC: O(n)
+  
+*/
 
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 int coinChange(const vector<int>& coins, int amount) {
