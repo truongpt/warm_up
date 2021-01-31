@@ -29,6 +29,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Check Array Formation Through Concatenation - [cpp](practice/cpp/array/check_array_formation_through_concatenation.cpp)
   - Rotate image - [cpp](practice/cpp/array/rotate_image.cpp)
   - Valid sodoku - [cpp](practice/cpp/array/valid_sodoku.cpp)
+  - Next permutation - [cpp](practice/cpp/array/next_permutation.cpp)
 - [Hash table](practice/cpp/hash_table)
   - Max number of k-sum pairs - [cpp](practice/cpp/hash_table/max_number_of_k_sum_pairs.cpp)
 - [Linked list](practice/cpp/linked_list)
