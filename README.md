@@ -132,6 +132,8 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Longest substring without repeating characters - [cpp](practice/cpp/sliding_window/longest_substring_without_repeat_char.cpp)
 - [Two pointers](practice/cpp/two_pointers)
   - Squares of a sorted array - [cpp](practice/cpp/two_pointers/squares_of_sorted_array.cpp)
+- [Slow and fast](practice/cpp/slow_fast)
+  - Linked list cycle - [cpp](practice/cpp/slow_fast/linked_list_cycle.cpp)
 - [Divide and conquer](practice/cpp/divide_and_conquer)
   - Longest substring with at least K repeating characters - [cpp](practice/cpp/divide_and_conquer/longest_substring_at_least_k_repeating_char.cpp)
   - [ ] Largest rectangle in histogram - [cpp](practice/cpp/divide_and_conquer/largest_rectangle_in_histogram.cpp)
