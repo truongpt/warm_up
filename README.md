@@ -83,7 +83,7 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Best time to buy and sell stock with cooldown - [cpp](practice/cpp/dynamic_programming/buy_sell_with_cooldown.cpp) 
     - Coin exchange - [cpp](practice/cpp/dynamic_programming/coin_exchange.cpp)
     - Counting bits - [cpp](practice/cpp/dynamic_programming/counting_bits.cpp)
-    - [ ] https://leetcode.com/problems/integer-break/
+    - Integer break - [cpp](practice/cpp/dynamic_programming/integer_break.cpp)
     - [ ] https://leetcode.com/problems/count-numbers-with-unique-digits/
     - [ ] https://leetcode.com/problems/wiggle-subsequence/
     - [ ] https://leetcode.com/problems/partition-equal-subset-sum/
