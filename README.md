@@ -65,6 +65,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Find a corresponding node of a binary tree in a clone of that tree - [cpp](practice/cpp/graph/corresponding_node_tree.cpp)
   - Number of distinct islands - [cpp](practice/cpp/graph/number_of_distinct_islands.cpp)
   - [ ] Shortest path in binary matrix - [cpp](practice/cpp/graph/shortest_path_in_binary_matrix.cpp)
+  - Is graph bipartite - [cpp](practice/cpp/graph/is_graph_bipartite.cpp)
 - [Greedy](practice/cpp/greedy)
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
