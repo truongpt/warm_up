@@ -34,6 +34,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Hash table](practice/cpp/hash_table)
   - Max number of k-sum pairs - [cpp](practice/cpp/hash_table/max_number_of_k_sum_pairs.cpp)
   - Longest harmonious subsequence - [cpp](practice/cpp/hash_table/longest_harmonious_subsequence.cpp)
+  - Kill process - [cpp](practice/cpp/hash_table/kill_process.cpp)
 - [Linked list](practice/cpp/linked_list)
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
   - Merge two sorted lists - [cpp](practice/cpp/linked_list/merge_two_sorted_list.cpp)
