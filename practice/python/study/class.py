@@ -22,3 +22,15 @@ print(ml1.unsuppervisor)
 print(ml1.type)
 print(ml1.version)
 
+# Inheritane
+class Vehicle:
+    def display(self):
+        print("I am Vehicle")
+
+class Car(Vehicle):
+    def display(self):
+        super().display()
+        print("I am from Car")
+
+obj = Car()
+obj.display()
