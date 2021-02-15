@@ -46,6 +46,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Sliding window max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
   - Kth largest element in an array - [cpp](practice/cpp/queue_stack/kth_largest_element_in_array.cpp)
   - Find the most competitive subsequence - [cpp](practice/cpp/queue_stack/find_the_most_competitive_subsequence.cpp)
+  - The K weakest rows in a matrix - [cpp](practice/cpp/queue_stack/the_k_weakest_rows_in_matrix.cpp)
 - [Binary tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
   - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
