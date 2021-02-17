@@ -73,6 +73,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
   - Smallest String With A Given Numeric Value - [cpp](practice/cpp/greedy/smallest_string_with_a_given_numeric_value.cpp)
+  - Container with most water - [cpp](practice/cpp/greedy/container_with_most_water.cpp)
 - [Dynamic programming](practice/cpp/dynamic_programming)
   - Liner DP
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
