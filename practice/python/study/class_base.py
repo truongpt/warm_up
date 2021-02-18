@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 # basic
 class MachineLearning:
     version = [] # class variable
@@ -38,5 +39,30 @@ class SavingsAccount(Account):
     def printDetail(self):
         print("Detail infor: ", self.title, self.balance, self.interest_rate)
 
-# Polymophism
+# Operator Overloading
+class Complex:
+    def __init__(self, real, img):
+        self.real = real
+        self.img = img
+    def __add__(self, other):
+        temp = Complex(self.real + other.real, self.img + other.img)
+        return temp
+    def __sub__(self, other):
+        temp = Complex(self.real - other.real, self.img - other.img)
+        return temp
+    def printDetail(self):
+        print("real : ", self.real)
+        print("img : ", self.img)
 
+# astract class
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+class Square(Shape):
+    def __init__(self, width, length):
+        self.width = width
+        self.length = length
+    def area(self):
+        return self.width * self.length

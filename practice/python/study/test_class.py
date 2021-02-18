@@ -33,3 +33,13 @@ toyota.turnOnHybrid()
 
 acc = SavingsAccount("Mark",500,5)
 acc.printDetail()
+
+# test operator overloading
+com1 = Complex(1,2)
+com2 = Complex(3,4)
+com = com1 + com2
+com.printDetail()
+
+# test abstract class
+shp = Square(10,15)
+print(shp.area())
