@@ -48,6 +48,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Kth largest element in an array - [cpp](practice/cpp/queue_stack/kth_largest_element_in_array.cpp)
   - Find the most competitive subsequence - [cpp](practice/cpp/queue_stack/find_the_most_competitive_subsequence.cpp)
   - The K weakest rows in a matrix - [cpp](practice/cpp/queue_stack/the_k_weakest_rows_in_matrix.cpp)
+  - Minimum remove to make valid parentheses - [cpp](practice/cpp/queue_stack/minimum_remove_to_make_valid_parentheses.cpp)
 - [Binary tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
   - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
