@@ -173,4 +173,4 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Pairs of songs with total durations divisible by 60 - [cpp](practice/cpp/misc/pair_song_with_total_duration_divisible_60.cpp)
   - Smallest range II - [cpp](practice/cpp/misc/smallest_range_2.cpp)
   - Create sorted array through instructions - [cpp](practice/cpp/misc/create_sorted_array_through_instructions.cpp)
-  - Broken calculator - [cpp](practice/cpp/misc/broken_calculator.cpp)
+  - Broken calculator - [cpp](practice/cpp/misc/broken_calculator.cpp) - [python](practice/python/misc/broken_calculator.py)
