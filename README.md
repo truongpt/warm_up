@@ -5,12 +5,13 @@ fundamental computer science.
 ## Problem solving  
 Practice over and over, because the God doesn't give us the shortcut.  
 
-- [String](practice/cpp/string)
+- String
   - Decode string - [cpp](practice/cpp/string/decode_string.cpp)
   - Shorted word distance - [cpp](practice/cpp/string/shorted_word_distance.cpp)
   - Decoded string at index - [cpp](practice/cpp/string/decoded_string_at_index.cpp)
   - Determine if two strings are close - [cpp](practice/cpp/string/determine_if_two_strings_are_close.cpp)
   - Simplify path - [cpp](practice/cpp/string/simplify_path.cpp)
+  - Reverse string - [python](practice/python/string/reverse_string.py)
 - [Array](practice/cpp/array)
   - Max consecutive ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
   - Max consecutive ones II - [cpp](practice/cpp/array/max_consecutive_ones_2.cpp)
