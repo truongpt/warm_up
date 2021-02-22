@@ -139,7 +139,8 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Burst balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
     - Parlindrome partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
     - Cherry pickup II - [cpp](practice/cpp/dynamic_programming/cherry_pickup_2.cpp)
-- [Bit manipulation](practice/cpp/bit_manipulation)
+- Bit manipulation
+  - Number complement - [python](practice/python/bit_manipulation/number_complement.py)
 - [Backtracking](practice/cpp/backtracking)
   - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
 - [Sliding window](practice/cpp/sliding_window)
