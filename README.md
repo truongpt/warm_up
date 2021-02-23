@@ -162,6 +162,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Validate binary search tree - [cpp](practice/cpp/binary_search/validate_binary_search_tree.cpp)
   - Kth missing positive number - [cpp](practice/cpp/binary_search/kth_missing_possitive_number.cpp)
   - Convert BST to greater tree - [cpp](practice/cpp/binary_search/convert_bst_to_greater_tree.cpp)
+  - Search a 2D matrix II - [cpp](practice/cpp/binary_search/search_a_2d_matrix_2.cpp)
 - [Sort](practice/cpp/sort)
   - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
   - Array quadruplet - [cpp](practice/cpp/sort/array_quadruplet.cpp)
