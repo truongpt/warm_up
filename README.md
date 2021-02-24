@@ -54,6 +54,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - The K weakest rows in a matrix - [cpp](practice/cpp/queue_stack/the_k_weakest_rows_in_matrix.cpp)
   - Minimum remove to make valid parentheses - [cpp](practice/cpp/queue_stack/minimum_remove_to_make_valid_parentheses.cpp)
   - Valid parentheses - [python](practice/python/queue_stack/valid_parentheses.py)
+  - Score of parentheses - [cpp](practice/cpp/queue_stack/valid_parentheses.cpp) - [python](practice/python/queue_stack/score_of_parentheses.py)
 - [Binary tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
   - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
