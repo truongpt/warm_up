@@ -12,7 +12,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Determine if two strings are close - [cpp](practice/cpp/string/determine_if_two_strings_are_close.cpp)
   - Simplify path - [cpp](practice/cpp/string/simplify_path.cpp)
   - Reverse string - [python](practice/python/string/reverse_string.py)
-- [Array](practice/cpp/array)
+- Array
   - Max consecutive ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
   - Max consecutive ones II - [cpp](practice/cpp/array/max_consecutive_ones_2.cpp)
   - Duplicate zeros - [cpp](practice/cpp/array/duplicate_zeros.cpp)
@@ -33,6 +33,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Valid sodoku - [cpp](practice/cpp/array/valid_sodoku.cpp)
   - Next permutation - [cpp](practice/cpp/array/next_permutation.cpp)
   - Arithmetic slices - [cpp](practice/cpp/array/arithmetic_slices.cpp)
+  - Shortest unsorted continuous subarray - [cpp](practice/cpp/array/shortest_unsorted_continuous_subarray.cpp) - [python](practice/python/array/shortest_unsorted_continuous_subarray.py)
 - [Hash table](practice/cpp/hash_table)
   - Max number of k-sum pairs - [cpp](practice/cpp/hash_table/max_number_of_k_sum_pairs.cpp)
   - Longest harmonious subsequence - [cpp](practice/cpp/hash_table/longest_harmonious_subsequence.cpp)
