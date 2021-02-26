@@ -1,5 +1,5 @@
 '''
-- Problem:
+- Problem: https://leetcode.com/problems/number-complement
 - Solution:
   - Using bitwise operator: AND and XOR -> return mask & (num ^ 0xFFFFFFFF)
   - mask is used to guaranteed bit change in range of num 
