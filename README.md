@@ -104,8 +104,8 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Coin exchange - [cpp](practice/cpp/dynamic_programming/coin_exchange.cpp)
     - Counting bits - [cpp](practice/cpp/dynamic_programming/counting_bits.cpp)
     - Integer break - [cpp](practice/cpp/dynamic_programming/integer_break.cpp)
+    - Wiggle subsequence - [cpp](practice/cpp/dynamic_programming/wiggle_subsequence.cpp) - [python](practice/python/dynamic_programming/wiggle_subsequence.py)
     - [ ] https://leetcode.com/problems/count-numbers-with-unique-digits/
-    - [ ] https://leetcode.com/problems/wiggle-subsequence/
     - [ ] https://leetcode.com/problems/partition-equal-subset-sum/
     - [ ] https://leetcode.com/problems/maximum-length-of-pair-chain/
     - [ ] https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
