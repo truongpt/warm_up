@@ -149,7 +149,6 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Burst balloom - [cpp](practice/cpp/dynamic_programming/burst_balloom.cpp)
     - Parlindrome partition - [cpp](practice/cpp/dynamic_programming/parlindrome_partitioning.cpp)
     - Cherry pickup II - [cpp](practice/cpp/dynamic_programming/cherry_pickup_2.cpp)
-    - Divide two integers - [cpp](practice/cpp/dynamic_programming/divide_two_integers.cpp)
 - Bit manipulation
   - Number complement - [python](practice/python/bit_manipulation/number_complement.py)
 - [Backtracking](practice/cpp/backtracking)
@@ -185,3 +184,4 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Smallest range II - [cpp](practice/cpp/misc/smallest_range_2.cpp)
   - Create sorted array through instructions - [cpp](practice/cpp/misc/create_sorted_array_through_instructions.cpp)
   - Broken calculator - [cpp](practice/cpp/misc/broken_calculator.cpp) - [python](practice/python/misc/broken_calculator.py)
+  - Divide two integers - [cpp](practice/cpp/dynamic_programming/divide_two_integers.cpp)
