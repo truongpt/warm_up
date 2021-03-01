@@ -6,10 +6,20 @@
   - Time and space complexity.
     - TC: O(log n) for push/pop
     - SC: O(n)
+
+- Solution2:
+  - Using 2 hashtable:
+    - One map value -> frequency
+    - One maping frequency -> stack of values, which same frequency.
+  - Time and space complexity.
+    - TC: O(1) for push/pop
+    - SC: O(n)
+
 */
 
 #include <iostream>
 #include <queue>
+#include <stack>
 #include <unordered_map>
 
 using namespace std;
@@ -53,6 +63,39 @@ public:
         freq[elem[0]]--;
         // cnt--;
         return elem[0];
+    }
+};
+
+// Solution 2
+class FreqStack2 {
+public:
+    unordered_map<int, int> freq;
+    unordered_map<int, stack<int>> group;
+    int max_freq;
+    
+    FreqStack2() {
+        max_freq = 0;
+        freq.clear();
+        group.clear();
+    }
+    
+    void push(int x) {
+        freq[x]++;
+        if (freq[x] > max_freq) {
+            max_freq = freq[x];
+        }
+        group[freq[x]].push(x);
+    }
+    
+    int pop() {
+        int res = group[max_freq].top();
+        group[max_freq].pop();
+        freq[res]--;
+        while (max_freq > 0 && group[max_freq].empty()) {
+            max_freq--;
+        }
+        
+        return res;
     }
 };
 
