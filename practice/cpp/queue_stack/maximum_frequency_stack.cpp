@@ -91,7 +91,7 @@ public:
         int res = group[max_freq].top();
         group[max_freq].pop();
         freq[res]--;
-        while (max_freq > 0 && group[max_freq].empty()) {
+        if (group[max_freq].empty()) {
             max_freq--;
         }
         

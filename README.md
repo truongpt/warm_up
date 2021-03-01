@@ -60,7 +60,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Valid parentheses - [python](practice/python/queue_stack/valid_parentheses.py)
   - Score of parentheses - [cpp](practice/cpp/queue_stack/score_of_parentheses.cpp) - [python](practice/python/queue_stack/score_of_parentheses.py)
   - Validate stack sequences - [cpp](practice/cpp/queue_stack/validate_stack_sequences.cpp) - [python](practice/python/queue_stack/validate_stack_sequences.py)
-  - Maximum frequency stack - [cpp](practice/cpp/queue_stack/maximum_frequency_stack.cpp)
+  - Maximum frequency stack - [cpp](practice/cpp/queue_stack/maximum_frequency_stack.cpp) - [python](practice/python/queue_stack/maximum_frequency_stack.py)
 - [Binary tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
   - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
