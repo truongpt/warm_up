@@ -40,6 +40,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Kill process - [cpp](practice/cpp/hash_table/kill_process.cpp)
   - Roman to integer - [cpp](practice/cpp/hash_table/roman_to_integer.cpp)
   - Distribute candies - [python](practice/python/hash_table/distribute_candies.py)
+  - Single row keyboard - [python](practice/python/hash_table/single_row_keyboard.py)
 - Linked list
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
   - Merge two sorted lists - [cpp](practice/cpp/linked_list/merge_two_sorted_list.cpp)
