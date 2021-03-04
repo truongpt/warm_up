@@ -98,7 +98,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Dynamic programming](practice/cpp/dynamic_programming)
   - Liner DP
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
-    - Best time to buy and sell stock  - [cpp](practice/cpp/dynamic_programming/best_time_to_buy.cpp)
+    - Best time to buy and sell stock - [cpp](practice/cpp/dynamic_programming/best_time_to_buy.cpp) - [python](practice/python/dynamic_programming/best_time_to_buy.py)
     - Min cost climbing stairs - [cpp](practice/cpp/dynamic_programming/min_cost_climbing_stairs.cpp)
     - Divisor game - [cpp](practice/cpp/dynamic_programming/divisor_game.cpp)
     - Decode ways - [cpp](practice/cpp/dynamic_programming/decode_ways.cpp)
