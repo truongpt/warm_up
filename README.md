@@ -51,6 +51,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Swap nodes in pairs - [python](practice/python/linked_list/swap_nodes_in_pairs.py)
   - Add two numbers - [python](practice/python/linked_list/add_two_number.py)
   - Remove Nth node from end of list - [python](practice/python/linked_list/remove_Nth_node_from_end_of_list.py)
+  - Intersection of two linked lists - [python](practice/python/linked_list/intersection_of_two_linked_lists.py)
 - [Trie](practice/cpp/trie)
 - Queue and Stack
   - Sliding window max - [cpp](practice/cpp/queue_stack/sliding_window_max.cpp)
