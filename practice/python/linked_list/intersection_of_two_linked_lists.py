@@ -1,5 +1,5 @@
 '''
-- Problem: https://leetcode.com/problems/intersection-of-two-linked-lists/solution/
+- Problem: https://leetcode.com/problems/intersection-of-two-linked-lists
 - Solution:
   - Adjust size of longer linked list to make 2 list is same size.
   - Check pair of each node.
