@@ -89,11 +89,12 @@ Practice over and over, because the God doesn't give us the shortcut.
   - [ ] Shortest path in binary matrix - [cpp](practice/cpp/graph/shortest_path_in_binary_matrix.cpp)
   - Is graph bipartite - [cpp](practice/cpp/graph/is_graph_bipartite.cpp)
   - Letter case permutation - [cpp](practice/cpp/graph/letter_case_permutation.cpp)
-- [Greedy](practice/cpp/greedy)
+- Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
   - Smallest String With A Given Numeric Value - [cpp](practice/cpp/greedy/smallest_string_with_a_given_numeric_value.cpp)
   - Container with most water - [cpp](practice/cpp/greedy/container_with_most_water.cpp)
+  - Jump game - [python](practice/python/greedy/jump_game.py)
 - [Dynamic programming](practice/cpp/dynamic_programming)
   - Liner DP
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
