@@ -3,6 +3,9 @@
 - Solution:
   - Using trie data structure to manage next word is included by previous words or not.
   - Preprocessing: sort words descent size of each word.
+  - Time and space complexity.
+    - TC: O (nlog(n) + n*m) // m is size of word
+    - SC: O(m)
 */
 
 #include <iostream>
