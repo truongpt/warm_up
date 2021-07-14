@@ -182,6 +182,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - [Sort](practice/cpp/sort)
   - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
   - Array quadruplet - [cpp](practice/cpp/sort/array_quadruplet.cpp)
+  - Custom sort string - [cpp](practice/cpp/sort/custom_sort_string.cpp)
 - [Misc](practice/cpp/misc)
   - Poor pigs - [cpp](practice/cpp/misc/poor_pigs.cpp)
   - Longest mountain - [cpp](practice/cpp/misc/longest_mountain.cpp)
