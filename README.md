@@ -1,9 +1,9 @@
-# Warm up  
+# Warm up
 For studying/refining/re-confirming/correcting knowlege of algorithm, data structure,
 fundamental computer science.
 
-## Problem solving  
-Practice over and over, because the God doesn't give us the shortcut.  
+## Problem solving
+Practice over and over, because the God doesn't give us the shortcut.
 
 - String
   - Decode string - [cpp](practice/cpp/string/decode_string.cpp)
@@ -179,6 +179,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Search in rotated sorted array II - [cpp](practice/cpp/binary_search/search_in_rotated_sorted_array_2.cpp)
   - Kth missing positive number - [cpp](practice/cpp/binary_search/kth_missing_possitive_number.cpp)
   - Search a 2D matrix II - [cpp](practice/cpp/binary_search/search_a_2d_matrix_2.cpp) - [python](practice/python/binary_search/search_a_2d_matrix_2.py)
+  - Valid Triangle Number - [cpp](practice/cpp/binary_search/valid_triangle_number.cpp)
 - [Sort](practice/cpp/sort)
   - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
   - Array quadruplet - [cpp](practice/cpp/sort/array_quadruplet.cpp)
