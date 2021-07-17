@@ -35,6 +35,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Arithmetic slices - [cpp](practice/cpp/array/arithmetic_slices.cpp)
   - Shortest unsorted continuous subarray - [cpp](practice/cpp/array/shortest_unsorted_continuous_subarray.cpp) - [python](practice/python/array/shortest_unsorted_continuous_subarray.py)
   - Set mismatch - [python](practice/python/array/set_mismatch.py)
+  - Three equal parts - [cpp](practice/cpp/array/three_equal_parts.cpp)
 - [Hash table](practice/cpp/hash_table)
   - Max number of k-sum pairs - [cpp](practice/cpp/hash_table/max_number_of_k_sum_pairs.cpp)
   - Longest harmonious subsequence - [cpp](practice/cpp/hash_table/longest_harmonious_subsequence.cpp)
