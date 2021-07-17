@@ -143,6 +143,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Knapsack  
     - Knapsack - [cpp](practice/cpp/dynamic_programming/knapsack.cpp)
     - Partition equal subset sum - [cpp](practice/cpp/dynamic_programming/partition_equal_subset_sum.cpp)
+    - Target sum - [cpp](practice/cpp/dynamic_programming/target_sum.cpp)  
     - [ ] https://leetcode.com/problems/house-robber-ii/
     - [ ] https://leetcode.com/problems/ones-and-zeroes/
     - [ ] https://leetcode.com/problems/target-sum/
