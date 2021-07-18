@@ -53,6 +53,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Add two numbers - [python](practice/python/linked_list/add_two_number.py)
   - Remove Nth node from end of list - [python](practice/python/linked_list/remove_Nth_node_from_end_of_list.py)
   - Intersection of two linked lists - [python](practice/python/linked_list/intersection_of_two_linked_lists.py)
+  - Reverse Nodes in k-Group - [cpp](practice/cpp/linked_list/reverse_nodes_in_k_group.cpp)
 - Trie
   - Short encoding of words - [cpp](practice/cpp/trie/short_encoding_of_words.cpp) - [python](practice/python/trie/short_encoding_of_words.py)
 - Queue and Stack
