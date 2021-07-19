@@ -82,6 +82,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Increasing order search tree - [cpp](practice/cpp/binary_search_tree/increasing_order_search_tree.cpp)
   - Validate binary search tree - [cpp](practice/cpp/binary_search_tree/validate_binary_search_tree.cpp) - [python](practice/python/binary_search_tree/validate_binary_search_tree.py)
   - Convert BST to greater tree - [cpp](practice/cpp/binary_search_tree/convert_bst_to_greater_tree.cpp)
+  - Lowest Common Ancestor of a BST - [cpp](practice/cpp/binary_search_tree/lowest_common_ancestor_of_a_binary_search_tree.cpp) 
 - [Graph](practice/cpp/graph)
   - Jump game III - [cpp](practice/cpp/graph/jump_game_3.cpp)
   - Jump game IV - [cpp](practice/cpp/graph/jump_game_4.cpp)
