@@ -97,6 +97,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Letter case permutation - [cpp](practice/cpp/graph/letter_case_permutation.cpp)
   - Average of levels in binary tree - [python](practice/python/graph/average_of_levels_in_binary_tree.py)
   - Binary tree pruning - [cpp](practice/cpp/graph/binary_tree_pruning.cpp)
+  - Word ladder II - [cpp](practice/cpp/graph/word_ladder_2.cpp)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
