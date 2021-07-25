@@ -169,6 +169,7 @@ Practice over and over, because the God doesn't give us the shortcut.
 - Bit manipulation
   - Number complement - [python](practice/python/bit_manipulation/number_complement.py)
   - Missing number - [python](practice/python/bit_manipulation/missing_number.py)
+  - Non-negative integers without consecutive ones - [cpp](practice/cpp/bit_manipulation/non_negative_integers_without_consecutive_ones.cpp)
 - [Backtracking](practice/cpp/backtracking)
   - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
 - [Sliding window](practice/cpp/sliding_window)
