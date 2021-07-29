@@ -100,6 +100,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Average of levels in binary tree - [python](practice/python/graph/average_of_levels_in_binary_tree.py)
   - Binary tree pruning - [cpp](practice/cpp/graph/binary_tree_pruning.cpp)
   - Word ladder II - [cpp](practice/cpp/graph/word_ladder_2.cpp)
+  - 01 matrix - [cpp](practice/cpp/graph/01_matrix.cpp)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
