@@ -70,6 +70,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Score of parentheses - [cpp](practice/cpp/queue_stack/score_of_parentheses.cpp) - [python](practice/python/queue_stack/score_of_parentheses.py)
   - Validate stack sequences - [cpp](practice/cpp/queue_stack/validate_stack_sequences.cpp) - [python](practice/python/queue_stack/validate_stack_sequences.py)
   - Maximum frequency stack - [cpp](practice/cpp/queue_stack/maximum_frequency_stack.cpp) - [python](practice/python/queue_stack/maximum_frequency_stack.py)
+  - Trapping rain water - [cpp](practice/cpp/queue_stack/trapping_rain_water.cpp)
 - [Binary tree](practice/cpp/binary_tree)
   - Range sum of BST - [cpp](practice/cpp/binary_tree/range_sum_of_bst.cpp)
   - Max depth of BST - [cpp](practice/cpp/binary_tree/max_depth_binary_tree.cpp)
