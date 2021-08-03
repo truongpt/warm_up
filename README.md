@@ -179,6 +179,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Non-negative integers without consecutive ones - [cpp](practice/cpp/bit_manipulation/non_negative_integers_without_consecutive_ones.cpp)
 - [Backtracking](practice/cpp/backtracking)
   - Beautiful Arrangement - [cpp](practice/cpp/backtracking/beautiful_arrangement.cpp)
+  - Subsets II - [cpp](practice/cpp/backtracking/subsets2.cpp)
 - [Sliding window](practice/cpp/sliding_window)
   - Longest substring with at most two distinct characters - [cpp](practice/cpp/sliding_window/longest_substring_most_two_distinct_characters.cpp)
   - Longest substring without repeating characters - [cpp](practice/cpp/sliding_window/longest_substring_without_repeat_char.cpp)
