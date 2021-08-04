@@ -105,6 +105,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Word ladder II - [cpp](practice/cpp/graph/word_ladder_2.cpp)
   - 01 matrix - [cpp](practice/cpp/graph/01_matrix.cpp)
   - Making a large island - [cpp](practice/cpp/graph/making_a_large_island.cpp)
+  - Path sum II - [cpp](practice/cpp/graph/path_sum_2.cpp)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
