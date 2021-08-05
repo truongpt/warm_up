@@ -130,6 +130,7 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Integer break - [cpp](practice/cpp/dynamic_programming/integer_break.cpp)
     - Wiggle subsequence - [cpp](practice/cpp/dynamic_programming/wiggle_subsequence.cpp) - [python](practice/python/dynamic_programming/wiggle_subsequence.py)
     - Palindromic substrings - [cpp](practice/cpp/dynamic_programming/palindromic_substrings.cpp)
+    - Stone game - [python](practice/python/dynamic_programming/stone_game.py)
     - [ ] https://leetcode.com/problems/count-numbers-with-unique-digits/
     - [ ] https://leetcode.com/problems/partition-equal-subset-sum/
     - [ ] https://leetcode.com/problems/maximum-length-of-pair-chain/
