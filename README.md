@@ -106,6 +106,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - 01 matrix - [cpp](practice/cpp/graph/01_matrix.cpp)
   - Making a large island - [cpp](practice/cpp/graph/making_a_large_island.cpp)
   - Path sum II - [cpp](practice/cpp/graph/path_sum_2.cpp)
+  - N-ary tree level order traversal - [python](practice/python/graph/n-ary_tree_level_order_traversal.py)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
