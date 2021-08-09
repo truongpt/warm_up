@@ -13,6 +13,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Simplify path - [cpp](practice/cpp/string/simplify_path.cpp)
   - Reverse string - [python](practice/python/string/reverse_string.py)
   - Push dominoes - [cpp](practice/cpp/string/push_dominoes.cpp)
+  - Add strings - [python](practice/python/string/add_strings.py)
 - Array
   - Max consecutive ones - [cpp](practice/cpp/array/max_consecutive_ones.cpp)
   - Max consecutive ones II - [cpp](practice/cpp/array/max_consecutive_ones_2.cpp)
