@@ -114,6 +114,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Smallest String With A Given Numeric Value - [cpp](practice/cpp/greedy/smallest_string_with_a_given_numeric_value.cpp)
   - Container with most water - [cpp](practice/cpp/greedy/container_with_most_water.cpp)
   - Jump game - [python](practice/python/greedy/jump_game.py)
+  - Array of doubled pairs - [python](practice/python/greedy/array_of_doubled_pairs.py)
 - [Dynamic programming](practice/cpp/dynamic_programming)
   - Liner DP
     - Climbing stair - [cpp](practice/cpp/dynamic_programming/climbing_stairs.cpp)
