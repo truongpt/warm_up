@@ -40,6 +40,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Three equal parts - [cpp](practice/cpp/array/three_equal_parts.cpp)
   - Partition array into disjoint intervals - [cpp](practice/cpp/array/partition_array_disjoint_intervals.cpp)
   - Beautiful array - [cpp](practice/cpp/array/beautiful_arry.cpp)
+  - Set matrix zeroes - [python](practice/python/array/set_matrix_zeroes.py)
 - [Hash table](practice/cpp/hash_table)
   - Max number of k-sum pairs - [cpp](practice/cpp/hash_table/max_number_of_k_sum_pairs.cpp)
   - Longest harmonious subsequence - [cpp](practice/cpp/hash_table/longest_harmonious_subsequence.cpp)
