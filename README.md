@@ -51,7 +51,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Map sum pair - [cpp](practice/cpp/hash_table/map_sum_pair.cpp)
   - Two sum - [python](practice/python/hash_table/two_sum.py)
   - Group anagrams - [python](practice/python/hash_table/group_anagrams.py)
-  - Minimum window substring - [cpp](practice/cpp/hash_table/minimum_window_substring.cpp)
+  - Minimum window substring - [cpp](practice/cpp/hash_table/minimum_window_substring.cpp) - [python](practice/python/hash_table/minimum_window_substring.py)
 - Linked list
   - Swap nodes in pairs - [cpp](practice/cpp/linked_list/swap_nodes_in_pair.cpp)
   - Merge two sorted lists - [cpp](practice/cpp/linked_list/merge_two_sorted_list.cpp)
