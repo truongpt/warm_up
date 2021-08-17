@@ -94,7 +94,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Convert BST to greater tree - [cpp](practice/cpp/binary_search_tree/convert_bst_to_greater_tree.cpp)
   - Lowest Common Ancestor of a BST - [cpp](practice/cpp/binary_search_tree/lowest_common_ancestor_of_a_binary_search_tree.cpp) 
   - Convert Sorted Array to Binary Search Tree - [cpp](practice/cpp/binary_search_tree/convert_sorted_array_to_binary_search_tree.cpp)
-- [Graph](practice/cpp/graph)
+- Graph
   - Jump game III - [cpp](practice/cpp/graph/jump_game_3.cpp)
   - Jump game IV - [cpp](practice/cpp/graph/jump_game_4.cpp)
   - Roads and libraries - [cpp](practice/cpp/graph/roads_and_libraries.cpp)
@@ -111,6 +111,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Making a large island - [cpp](practice/cpp/graph/making_a_large_island.cpp)
   - Path sum II - [cpp](practice/cpp/graph/path_sum_2.cpp)
   - N-ary tree level order traversal - [python](practice/python/graph/n-ary_tree_level_order_traversal.py)
+  - Count good nodes in binary tree - [python](practice/python/graph/count_good_nodes_in_binary_tree.py)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
