@@ -140,6 +140,7 @@ Practice over and over, because the God doesn't give us the shortcut.
     - Stone game - [python](practice/python/dynamic_programming/stone_game.py)
     - Palindrome partitioning 2 - [python](practice/python/dynamic_programming/palindrome_partitioning_2.py)
     - Flip string to monotone increasing - [python](practice/python/dynamic_programming/flip_string_to_monotone_increasing.py)
+    - Decode ways - [python](practice/python/dynamic_programming/decode_ways.py)
     - [ ] https://leetcode.com/problems/count-numbers-with-unique-digits/
     - [ ] https://leetcode.com/problems/partition-equal-subset-sum/
     - [ ] https://leetcode.com/problems/maximum-length-of-pair-chain/
