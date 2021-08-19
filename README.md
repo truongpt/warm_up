@@ -112,6 +112,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Path sum II - [cpp](practice/cpp/graph/path_sum_2.cpp)
   - N-ary tree level order traversal - [python](practice/python/graph/n-ary_tree_level_order_traversal.py)
   - Count good nodes in binary tree - [python](practice/python/graph/count_good_nodes_in_binary_tree.py)
+  - Maximum product of splitted binary tree - [python](practice/python/graph/maximum_product_of_splitted_binary_tree.py)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
