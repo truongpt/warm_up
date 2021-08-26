@@ -117,6 +117,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Count good nodes in binary tree - [python](practice/python/graph/count_good_nodes_in_binary_tree.py)
   - Maximum product of splitted binary tree - [python](practice/python/graph/maximum_product_of_splitted_binary_tree.py)
   - Two sum IV - [python](practice/python/graph/two_sum_4.py)
+  - Verify preorder serialization of a binary tree - [python](practice/python/graph/verify_preorder_serialization_of_a_binary_tree.py)
 - Greedy
   - Can place flowers - [cpp](practice/cpp/greedy/can_place_flowers.cpp)
   - Boats to save people - [cpp](practice/cpp/greedy/boats_to_save_people.cpp)
