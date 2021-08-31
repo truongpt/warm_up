@@ -216,6 +216,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Search a 2D matrix II - [cpp](practice/cpp/binary_search/search_a_2d_matrix_2.cpp) - [python](practice/python/binary_search/search_a_2d_matrix_2.py)
   - Valid triangle number - [cpp](practice/cpp/binary_search/valid_triangle_number.cpp)
   - 3Sum closest - [cpp](practice/cpp/binary_search/3sum_closest.cpp)
+  - Find minimum in rotated sorted array - [python](practice/python/binary_search/find_minimum_in_rotated_sorted_array.py)
 - [Sort](practice/cpp/sort)
   - Merge intervals - [cpp](practice/cpp/sort/merge_intervals.cpp)
   - Array quadruplet - [cpp](practice/cpp/sort/array_quadruplet.cpp)
