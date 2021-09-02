@@ -98,6 +98,7 @@ Practice over and over, because the God doesn't give us the shortcut.
   - Convert BST to greater tree - [cpp](practice/cpp/binary_search_tree/convert_bst_to_greater_tree.cpp)
   - Lowest Common Ancestor of a BST - [cpp](practice/cpp/binary_search_tree/lowest_common_ancestor_of_a_binary_search_tree.cpp) 
   - Convert Sorted Array to Binary Search Tree - [cpp](practice/cpp/binary_search_tree/convert_sorted_array_to_binary_search_tree.cpp)
+  - Unique binary search tree II - [python](practice/python/binary_search_tree/unique_binary_search_trees_2.py)
 - Graph
   - Jump game III - [cpp](practice/cpp/graph/jump_game_3.cpp)
   - Jump game IV - [cpp](practice/cpp/graph/jump_game_4.cpp)
